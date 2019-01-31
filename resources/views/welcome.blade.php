@@ -278,7 +278,7 @@
                           <p style="color:white">Esplanade de Verdun / Montaigu-Vendée / 9h-19h</p>
                     </div>
             </div>
-            <div class="col-lg-4 showcase-img" style="background: url('img/lieu.png')">
+            <div class="col-lg-4 showcase-img" style="background: url('img/lieu.png') no-repeat;background-size:cover">
             </div>
           </div>
         </section>
