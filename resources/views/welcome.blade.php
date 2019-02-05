@@ -78,9 +78,9 @@
           <div class="container">
             <div class="row">
               <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;margin-top:-100px;">
-                <p><b>Esplanade de Verdun <br>Montaigu-Vendée<br> 9h-19</b></p>
-                <img src="img/destination-emploi.svg" alt="" style="width:40%;">
-                <p style="font-size:2em;text-shadow: 1px 1px 2px #E5007D;">Vendredi 29 mars,<br> prenez la bonne <br> direction pour <br> votre emploi.</p>
+                <p style="font-size:1.2em"><b>Théatre de Thalie <br>Montaigu-Vendée<br> 9h-19</b></p>
+                <img src="img/destination-emploi.svg" alt="" style="width:50%;">
+                <p style="font-size:2em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Vendredi 29 mars,<br> prenez la bonne <br> direction pour <br> votre emploi.</p>
               </div>
             </div>
           </div>
@@ -90,10 +90,10 @@
         <section class="features-icons" style="background-color:white;margin-top:-2em;background: url('../img/demi-cercle1.svg') no-repeat;background-position: 25% bottom;background-size:150px;">
           <div class="container">
               <div class="row">
-                  <div class="col-lg-2">
+                  <div class="col-lg-1">
 
                   </div>
-                  <div class="col-lg-8">
+                  <div class="col-lg-10">
                       <h3 class="first_letter" style="color:#31328A;margin-left: 12%;">Vous êtes demandeur d’emploi, étudiant,
                           en reconversion ou à la recherche
                           de nouvelles opportunités professionnelles ?
@@ -115,7 +115,7 @@
                   <div class="features-icons-icon d-flex">
                     <img src="img/50entreprises.svg" alt="" style="width:4em;margin-left:auto;margin-right:auto;">
                   </div>
-                   <p class="lead mb-0">Des <b style="font-size:1em;font-weight:bold;">rencontres</b>, des ateliers et conférences</p>
+                   <p class="lead mb-0"><b style="font-size:1em;font-weight:bold;">45 entreprises</b> tous secteurs d'activité</p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -184,11 +184,13 @@
                 </div>
               </div>
             </div>
+            <!--
             <div class="row" style="margin-top:5em;color:#E5007D">
                 <div class="col-md-12 text-center">
                     <h5 style="font-weight:400;">JE DÉCOUVRE<br> TOUTES LES OFFRES <img src="img/fleche-droite.svg" alt="" style="width:50px;margin-top:-30px;margin-left:10px;"></h5>
                 </div>
             </div>
+        -->
           </div>
         </section>
 
@@ -196,10 +198,10 @@
         <section class="showcase">
           <div class="container-fluid p-0">
             <div class="row no-gutters">
-              <div class="col-lg-6 text-white showcase-img" style="background:#F6F6F6;"></div>
+              <div class="col-lg-6 text-white showcase-img" style="background: url('img/stock_thumb_destination.jpeg') no-repeat;background-size:cover;"></div>
               <div class="col-lg-6 showcase-text" style="background: url('img/fond-decor.svg') no-repeat no-repeat;background-size:full;background-position: right bottom;">
                 <h2 class="first_letter" style="color:#2C2D78"> Destination Emploi : une journée pour trouver un emploi et bien plus encore</h2>
-                <p class="lead mb-0" style="color:#2C2D78">Destination Emploi, c’est la journée incontournable de l’emploi en Terres de Montaigu. Que vous soyez à la recherche d’un emploi, étudiant, en reconversion ou simplement à l’écoute de nouvelles opportunités, vous y trouverez de nombreuses offres d’emploi disponibles immédiatement ainsi que toutes les informations sur la formation professionnelle et la reconversion.</h2>
+                <p class="lead mb-0" style="padding-left:1.5em;color:#2C2D78">Destination Emploi, c’est la journée incontournable de l’emploi en Terres de Montaigu. Que vous soyez à la recherche d’un emploi, étudiant, en reconversion ou simplement à l’écoute de nouvelles opportunités, vous y trouverez de nombreuses offres d’emploi disponibles immédiatement ainsi que toutes les informations sur la formation professionnelle et la reconversion.</h2>
             </div>
           </div>
         </section>
@@ -247,18 +249,18 @@
               <div class="col-lg-8 showcase-text">
                 <h2 class="first_letter" style="color:#2C2D78"> Votre entreprise recrute et vous n'êtes pas encore inscrits ?<br>
                 <br><span style="text-shadow: 1px 1px 2px #12B7C0;"><span style="font-weight:300;">Ici, trouvez vos</span> futurs collaborateurs.</span></h2>
-                <p class="lead mb-0" style="color:#2C2D78">Donnez de la visibilité à vos offres d’emploi et venez à la rencontre des candidats du territoire et d’ailleurs. Bénéficiez d’un espace dédié sur le salon et de nos conseils pour faire valoir les atouts de votre entreprise et trouver les candidats les plus motivés et performants. Inscrivez-vous dès maintenant directement en ligne, pour participer à la journée Destination Emploi.</h2>
-                    <div class="row" style="margin-top:5em;color:#E5007D">
+                <p class="lead mb-0" style="color:#2C2D78;padding-left:1.5em;text-align:justify;">Donnez de la visibilité à vos offres d’emploi et venez à la rencontre des candidats du territoire et d’ailleurs. Bénéficiez d’un espace dédié sur le salon et de nos conseils pour faire valoir les atouts de votre entreprise et trouver les candidats les plus motivés et performants. Inscrivez-vous dès maintenant directement en ligne, pour participer à la journée Destination Emploi.</h2>
+                    <!--<div class="row" style="margin-top:5em;color:#E5007D">
                         <div class="col-md-12 text-center">
                             <h5 style="font-weight:bold;">J'inscris <br>mon entreprise <img src="img/fleche-droite.svg" alt="" style="width:50px;margin-top:-30px;margin-left:10px;"></h5>
                         </div>
-                    </div>
+                    </div>-->
             </div>
             <div class="col-lg-4 showcase-img">
                 <div class="testimonial" style="margin-top:20%;width:80%;margin-left:10%;">
                     <img src="img/guillemets.svg" alt="" width="50">
-                    <p style="color:#2C2D78;font-weight:bold"><i>Lorem ipsum dolor sit amet, consecte- tuer adipiscing elit, sed diam nonum- my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper sus- cipit lobortis nisl ut ali</i></p>
-                    <p style="color:#2C2D78"><i>Entreprise X</i></p>
+                    <p style="color:#2C2D78;font-weight:bold"><i>Nous avons des difficultés à recruter deux profils en tension (charpentier bois et opérateur commande numérique. Nous participons au salon pour rencontrer des profils sur ces deux emplois mais également faire connaître nos métiers et notre société à travers son environnement, son ambiance et ses locaux par exemple.</i></p>
+                    <p style="color:#2C2D78"><i>Karine Bouhier, Les Charpentiers de l’Atlantique</i></p>
                 </div>
             </div>
           </div>
@@ -270,12 +272,12 @@
               <div class="col-lg-8 showcase-text">
                   <div style="width:80%;margin-left:80px">
                       <h2 class="first_letter" style="color:white;">Nouveau lieu, nouveau format, nouvelle destination pour l’emploi</h2>
-                      <p class="lead mb-0" style="color:white">Chaque année depuis 7 ans, Pôle Emploi organise les rendez-vous de l'emploi .... Cette année, Terres de Montaigu s'associe à Pôle emploi pour répondre aux besoins toujours plus importants des entreprises.
+                      <p class="lead mb-0" style="color:white;padding-left:1.5em;">Chaque année depuis 7 ans, Pôle Emploi organise les rendez-vous de l’emploi .... Cette année, Terres de Montaigu s'associe à Pôle emploi pour répondre aux besoins toujours plus importants des entreprises.
                           Les rendez-vous de l'emploi deviennent destination Emploi, une journée entièrement dédiée à l'emploi sur plus de 1 800 m2.</h2>
                           <br>
                           <br>
-                          <h3 style="color:#2C2D78">Rendez-vous le 29 mars 2019 !</h3>
-                          <p style="color:white">Esplanade de Verdun / Montaigu-Vendée / 9h-19h</p>
+                          <h3 style="color:#2C2D78;padding-left:1.5em;">Rendez-vous le 29 mars 2019 !</h3>
+                          <p style="color:white;padding-left:1.5em;">Esplanade de Verdun / Montaigu-Vendée / 9h-19h</p>
                     </div>
             </div>
             <div class="col-lg-4 showcase-img" style="background: url('img/lieu.png') no-repeat;background-size:cover">
@@ -339,28 +341,28 @@
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                   <div class="body_offer">
-
+                      <img src="img/poleemploi.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;">
                   </div>
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <div class="body_offer">
-
+                        <img src="img/capemploi.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;">
                     </div>
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <div class="body_offer">
-
+                        <img src="img/mdede.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;">
                     </div>
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <div class="body_offer">
-
+                        <img src="img/missionlocale.png" alt="" style="max-width:100%;max-height:100%;box-shadow:none;">
                     </div>
                 </div>
               </div>
