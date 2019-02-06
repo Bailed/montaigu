@@ -18,6 +18,12 @@ Route::group(['middleware' => 'auth'], function() {
     });
 });
 
+// Companies Routes...
+
+Route::get('creation-entreprise','CompaniesController@create')->name('create_company');
+Route::post('creation-entreprise', 'CompaniesController@createPost');
+
+
 
 // Authentication Routes...
 Route::get('connexion', 'Auth\LoginController@showLoginForm')->name('login');
