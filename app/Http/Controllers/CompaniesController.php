@@ -5,6 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Model\Company;
 use Uuid;
+use App\User;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Foundation\Auth\RegistersUsers;
 
 class CompaniesController extends Controller
 {
@@ -35,6 +40,12 @@ class CompaniesController extends Controller
             'activity_area' => $request->input('activity_area'),
             'nb_jobs' => $request->input('nb_jobs'),
             'company_values' => json_encode($values)
+        ]);
+
+        User::create([
+            'name' => $request->input('name'),
+            'email' => $request->input('contact_mail'),
+            'password' => Hash::make($request->input('contact_password')),
         ]);
 
         return view('company.create')->with('success','Entreprise enregistrée');

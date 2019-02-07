@@ -59,15 +59,28 @@
                 <img src="img/logo.png" alt="" style="width:150px;">
             </a>
             <ul class="nav nav-pills">
-              <li role="presentation" >
+              <li role="presentation">
                   <a href="#"><img src="img/icon-f.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
               </li>
-              <li role="presentation" >
+              <li role="presentation">
                   <a href="#"><img src="img/icon-in.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
               </li>
-              <li role="presentation" >
+              <li role="presentation">
                   <a href="#"><img src="img/icon-t.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
               </li>
+              @if(!Auth::user())
+              <li role="presentation">
+                    <a href="{{route('login')}}">
+                        <i class="fas fa-sign-in-alt" style="padding:0.35em 0.5em 0.5em 0.5em;color:#E5007D"></i>
+                    </a>
+              </li>
+              @else
+              <li role="presentation">
+                    <a href="{{route('logout')}}">
+                        <i class="fas fa-sign-out-alt" style="padding:0.35em 0.5em 0.5em 0.5em;color:#E5007D"></i>
+                    </a>
+              </li>
+              @endif
             </ul>
           </div>
         </nav>

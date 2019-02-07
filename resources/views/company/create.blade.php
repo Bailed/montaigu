@@ -17,11 +17,28 @@
     <form action="" method="post">
         @csrf
     <div class="row">
+        <div class="col-lg-12">
+            <h4>Votre compte</h4>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+              <label>Email* <small>(obligatoire)</small></label>
+              <input type="text" class="form-control" name="contact_mail" required="required">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+              <label>Mot de passe* <small>(obligatoire)</small></label>
+              <input type="password" class="form-control" name="contact_password" required="required">
+            </div>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-lg-6">
             <h4>L'entreprise</h4>
                 <div class="form-group">
-                  <label>Nom de l'entreprise</label>
-                  <input type="text" class="form-control" name="name">
+                  <label>Nom de l'entreprise* <small>(obligatoire)</small></label>
+                  <input type="text" class="form-control" name="name" required="required">
                 </div>
                 <div class="form-group">
                   <label>Adresse</label>
@@ -39,13 +56,19 @@
                 </div>
                 <div class="form-group">
                   <label>Secteur d'activité</label>
-                  <select class="form-control" name="activity_area">
-                      <option value="digital">Numérique</option>
+                    <select class="form-control" name="activity_area">
+                        <option value="industry">Industrie</option>
+                        <option value="bat">Construction, Travaux publics</option>
+                        <option value="b2c">Service aux particuliers</option>
+                        <option value="b2b">Service aux entreprises</option>
+                        <option value="commerce">Commerce de détails</option>
+                        <option value="transport">Transport et Logistique</option>
+                        <option value="hotel">Hôtellerie et Restauration</option>
                   </select>
                 </div>
                 <div class="form-group">
                   <label>Nombre de poste(s) à pourvoir dans l'entreprise dans l'année</label>
-                  <input type="text" class="form-control" name="nb_jobs">
+                  <input type="number" class="form-control" name="nb_jobs" min="0">
                 </div>
         </div>
         <div class="col-lg-6">
@@ -66,10 +89,17 @@
               <label>Téléphone</label>
               <input type="text" class="form-control" name="contact_phone">
             </div>
-            <div class="form-group">
-              <label>Email</label>
-              <input type="text" class="form-control" name="contact_mail">
-            </div>
+        </div>
+        <div class="col-lg-12 text-center">
+            <div class="form-check">
+               <input type="checkbox" class="form-check-input" name="accompagner">
+               <label class="form-check-label">Je souhaite être accompagné dans la préparation du salon en participant à l'atelier Destination Emploi qui aura lieu le jeudi 28 février 2019 de 8h30 à 11h00 à Montaigu-Vendée (une invitation précise vous sera adressée par email).</label>
+             </div>
+             <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="confirmation" required="required">
+                <label class="form-check-label">Je confirme ma participation au salon Destination Emploi le vendredi 29 mars 2019 et m'engage à régler une participation de 300€ net de taxe à Terres de Montaigu sur facture.
+                </label>
+              </div>
         </div>
         <div class="col-lg-12 text-center"><br>
             <h4>Les 5 valeurs de l'entreprise</h4><br>
