@@ -14,6 +14,11 @@
         Félicitations ! Votre demande a bien été enregistrée.  <a href="{{route('login')}}">Cliquez ici pour vous connecter.</a>
     </div>
     @endif
+    @if(isset($error))
+    <div class="alert alert-success" role="alert">
+        Erreur ! Cet email est déjà utilisé.</a>
+    </div>
+    @endif
     <form action="" method="post">
         @csrf
     <div class="row">

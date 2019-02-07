@@ -26,6 +26,11 @@ class CompaniesController extends Controller
             "value4" => $request->input('value_4'),
             "value5" => $request->input('value_5'),
         );
+
+        $oldCompany = Company::where('contact_email',$request->input('contact_mail'))->first();
+
+        if($oldCompany) {return view('company.create')->with('error','Cet email est déjà utilisé.');}
+
         $company = Company::create([
             'uid' => Uuid::generate(),
             'name' => $request->input('name'),
@@ -41,6 +46,10 @@ class CompaniesController extends Controller
             'nb_jobs' => $request->input('nb_jobs'),
             'company_values' => json_encode($values)
         ]);
+
+        $oldUser = User::where('email',$request->input('contact_mail'))->first();
+
+        if($oldUser) {return view('company.create')->with('error','Cet email est déjà utilisé.');}
 
         User::create([
             'name' => $request->input('name'),
