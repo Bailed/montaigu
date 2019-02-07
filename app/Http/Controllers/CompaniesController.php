@@ -27,7 +27,7 @@ class CompaniesController extends Controller
             "value5" => $request->input('value_5'),
         );
 
-        $oldCompany = Company::where('contact_email',$request->input('contact_mail'))->first();
+        $oldCompany = Company::where('contact_mail',$request->input('contact_mail'))->first();
 
         if($oldCompany) {return view('company.create')->with('error','Cet email est déjà utilisé.');}
 
