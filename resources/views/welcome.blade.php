@@ -348,19 +348,7 @@
             }, 1000);
             </script>
 
-            <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-            <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
-            <script type="text/javascript">
-              $(document).on('ready', function() {
-                $(".center").slick({
-                  dots: true,
-                  infinite: true,
-                  centerMode: true,
-                  slidesToShow: 5,
-                  slidesToScroll: 4
-                });
-              });
-          </script>
+            
 
 
 @endsection
