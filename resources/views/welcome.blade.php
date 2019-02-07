@@ -78,46 +78,48 @@
                   <h2 class="mb-5 first_letter" style="margin-left:auto;margin-right:auto;">Votre futur emploi se trouve ici</h2>
               </div>
             <div class="row">
-              <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                  <div class="top_offer">
-                      Secteur d'activité
+                <section class="center slider">
+                  <div>
+                    <img src="img/logos/sodebo.png">
+                    <p>Aggroalimentaire</p>
                   </div>
-                  <div class="body_offer">
-
+                  <div>
+                    <img src="img/logos/fmlogistic.jpg">
+                    <p>Logistique / Transport</p>
                   </div>
-                  <h4>
-                      Titre du poste
-                  </h4>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <div class="top_offer">
-                        Secteur d'activité
-                    </div>
-                    <div class="body_offer">
-
-                    </div>
-                    <h4>
-                        Titre du poste
-                    </h4>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                    <div class="top_offer">
-                        Secteur d'activité
-                    </div>
-                    <div class="body_offer">
-
-                    </div>
-                    <h4>
-                        Titre du poste
-                    </h4>
-                </div>
-              </div>
-            </div>
+                  <div>
+                    <img src="img/logos/defontaine.png">
+                    <p>Industrie</p>
+                  </div>
+                  <div>
+                    <img src="img/logos/gps.jpeg">
+                    <p>Agroalimentaire</p>
+                  </div>
+                  <div>
+                    <img src="img/logos/saintjames.png">
+                    <p>Hôtellerie</p>
+                  </div>
+                  <div>
+                    <img src="img/logos/laiterie.jpg">
+                    <p>Agroalimentaire</p>
+                  </div>
+                  <div>
+                    <img src="img/logos/chdvendee.png">
+                    <p>Service à la personne</p>
+                  </div>
+                  <div>
+                    <img src="img/logos/superu.jpg">
+                    <p>Commerce</p>
+                  </div>
+                  <div>
+                    <img src="img/logos/gebe.png">
+                    <p>Industrie</p>
+                  </div>
+                  <div>
+                      <img src="img/logos/telechargement.png">
+                      <p>Agroalimentaire</p>
+                  </div>
+                </section>
             <!--
             <div class="row" style="margin-top:5em;color:#E5007D">
                 <div class="col-md-12 text-center">
@@ -313,5 +315,52 @@
             </div>
           </div>
         </section>
+
+
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("March 29, 2019 00:00:01").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+              // Get todays date and time
+              var now = new Date().getTime();
+
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+              // Display the result in the element with id="demo"
+              document.getElementById("demo").innerHTML = "J-" + days + " H- " + hours;
+
+              // If the count down is finished, write some text
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+            </script>
+
+            <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+            <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+            <script type="text/javascript">
+              $(document).on('ready', function() {
+                $(".center").slick({
+                  dots: true,
+                  infinite: true,
+                  centerMode: true,
+                  slidesToShow: 5,
+                  slidesToScroll: 4
+                });
+              });
+          </script>
+
 
 @endsection

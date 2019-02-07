@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row no-gutters">
         <div class="col-lg-12 showcase-text">
-            <h2 class="first_letter" style="color:#2C2D78"> Mise à jour de de votre entreprise<br>
+            <h2 class="first_letter" style="color:#2C2D78"> Mise à jour de votre entreprise<br>
         </div>
     </div>
     <form action="{{route('company.update.post',['uid' => Auth::user()->company()->uid])}}" method="post">
