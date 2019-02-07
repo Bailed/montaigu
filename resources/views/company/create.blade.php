@@ -11,7 +11,7 @@
     </div>
     @if(isset($success))
     <div class="alert alert-success" role="alert">
-        Félicitations ! Votre demande a bien été enregistrée.
+        Félicitations ! Votre demande a bien été enregistrée.  <a href="{{route('login')}}">Cliquez ici pour vous connecter.</a>
     </div>
     @endif
     <form action="" method="post">
