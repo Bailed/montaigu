@@ -100,19 +100,21 @@
         <!-- Navigation -->
         <nav class="navbar navbar-light bg-light static-top text-center">
           <div class="container text-center">
-            <a class="navbar-brand" href="/" style="margin-left:45%;margin-right:auto;">
+            <a class="navbar-brand" href="/" style="margin-left:42.5%;margin-right:auto;">
                 <img src="img/logo.png" alt="" style="width:150px;">
             </a>
             <ul class="nav nav-pills">
               <li role="presentation">
-                  <a href="#"><img src="img/icon-f.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
+                  <a href="https://www.facebook.com/terresdemontaigu/" target="_blank"><img src="img/icon-f.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
               </li>
               <li role="presentation">
-                  <a href="#"><img src="img/icon-in.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
+                  <a href="https://www.linkedin.com/company/terres-de-montaigu/about/" target="_blank"><img src="img/icon-in.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
               </li>
+              <!--
               <li role="presentation">
                   <a href="#"><img src="img/icon-t.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
               </li>
+            -->
               @if(!Auth::user())
               <li role="presentation">
                     <a href="{{route('login')}}">
@@ -132,15 +134,15 @@
             @yield('content')
             <!-- Footer -->
             <footer class="footer" style="color:white;background-color:#31328A">
-              <div class="container">
+              <div class="container-fluid" style="width:80%">
                 <div class="row" style="padding-bottom:2em;">
                     <h4>Comment se rendre à destination emploi ?</h4>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10888.061833880218!2d-1.3082358!3d46.981031!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb76df32b7afef6!2zVGjDqcOidHJlIGRlIFRoYWxpZQ!5e0!3m2!1sfr!2sfr!4v1549541249517" width="200" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="col-lg-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10888.061833880218!2d-1.3082358!3d46.981031!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb76df32b7afef6!2zVGjDqcOidHJlIGRlIFRoYWxpZQ!5e0!3m2!1sfr!2sfr!4v1549541249517" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <div class="row">
                             <h5 class="first_letter">Contact</h5>
                         </div>
@@ -162,7 +164,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-3" style="background: url('img/m-footer.png') no-repeat;background-size:cover">
+                    <div class="col-lg-3" style="background: url('img/m-footer.png') no-repeat;background-size:70%;background-position:center center;">
                         <div class="row">
                             <h5 class="first_letter">Lien utile</h5>
                         </div>
@@ -192,7 +194,7 @@
                   infinite: true,
                   centerMode: true,
                   slidesToShow: 5,
-                  slidesToScroll: 4
+                  slidesToScroll: 2
                 });
               });
           </script>

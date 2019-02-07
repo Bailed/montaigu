@@ -3,20 +3,22 @@
 @section('content')
         <!-- Masthead -->
         <header class="masthead text-white">
-        <div id="demo" style="width:200px;height:40px;text-align:center;margin-top:-12em;margin-right:20%;float:right;background: url('img/date.svg') no-repeat;font-weight:bold;"></div>
+        <div id="demo" style="position:relative;width:200px;height:40px;text-align:center;margin-top:-12em;right:20%;float:right;background: url('img/date.svg') no-repeat;font-weight:bold;"></div>
 
-          <a href="#features-icons"><div class="overlay"></div></a>
+         <div class="overlay"></div>
           <div class="container">
             <div class="row">
               <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;margin-top:-100px;">
                 <p style="font-size:1.5em;"><b>Théatre de Thalie 9h-19<br>Montaigu-Vendée<br></b></p>
                 <img src="img/destination-emploi.svg" alt="" style="width:50%;">
                 <p style="font-size:2.3em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Vendredi 29 mars,<br> prenez la bonne <br> direction pour <br> votre emploi.</p>
+                <a href="#features-icons">
+                <div style="width:50px;margin-left:auto;margin-right:auto;z-index:1000">
+                    <img src="img/fleche.svg" alt="" style="margin-top:-6em;">
+                </div>
+                </a>
               </div>
             </div>
-          </div>
-          <div style="width:50px;height:50px;margin-left:auto;margin-right:auto;z-index:1000">
-             <img src="img/fleche.svg" alt="">
           </div>
         </header>
 
@@ -75,43 +77,43 @@
         <section class="testimonials text-center" style="background-color:#31328A;color:white;">
           <div class="container">
               <div class="row">
-                  <h2 class="mb-5 first_letter" style="margin-left:auto;margin-right:auto;">Votre futur emploi se trouve ici</h2>
+                  <h2 class="mb-5 first_letter" style="margin-left:auto;margin-right:auto;">Votre futur emploi se trouve ici.</h2>
               </div>
             <div class="row">
                 <section class="center slider">
-                  <div>
+                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <img src="img/logos/sodebo.png">
                     <p>Aggroalimentaire</p>
                   </div>
-                  <div>
+                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <img src="img/logos/fmlogistic.jpg">
                     <p>Logistique / Transport</p>
                   </div>
-                  <div>
+                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <img src="img/logos/defontaine.png">
                     <p>Industrie</p>
                   </div>
-                  <div>
+                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <img src="img/logos/gps.jpeg">
                     <p>Agroalimentaire</p>
                   </div>
-                  <div>
+                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <img src="img/logos/saintjames.png">
                     <p>Hôtellerie</p>
                   </div>
-                  <div>
+                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <img src="img/logos/laiterie.jpg">
                     <p>Agroalimentaire</p>
                   </div>
-                  <div>
+                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <img src="img/logos/chdvendee.png">
                     <p>Service à la personne</p>
                   </div>
-                  <div>
+                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <img src="img/logos/superu.jpg">
                     <p>Commerce</p>
                   </div>
-                  <div>
+                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <img src="img/logos/gebe.png">
                     <p>Industrie</p>
                   </div>
@@ -209,7 +211,7 @@
                       <h2 class="first_letter" style="color:white;">Nouveau lieu, nouveau format, nouvelle destination pour l’emploi</h2>
                       <p class="lead mb-0" style="color:white;padding-left:1.5em;">Chaque année depuis 7 ans, Pôle Emploi organise les rendez-vous de l’emploi afin de répondre au dynamisme croissant des entreprises et à leurs besoins en recrutement.
                           <br><br>
-                          Cette année, Terres de Montaigu s’associe à Pôle Emploi pour répondre aux besoins toujours plus importants des entreprises. Les rendez-vous de l'emploi deviennent destination Emploi, une journée entièrement dédiée à l'emploi sur plus de 1 800 m2.</h2>
+                          Cette année, Terres de Montaigu s’associe à Pôle Emploi pour répondre aux besoins toujours plus importants des entreprises. Les rendez-vous de l'emploi deviennent Destination Emploi, une journée entièrement dédiée à l'emploi sur plus de 1 800 m2.</h2>
                           <br>
                           <br>
                           <h3 style="color:#2C2D78;padding-left:1em;">Rendez-vous le 29 mars 2019 !</h3>
@@ -280,35 +282,35 @@
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                   <div class="body_offer">
-                      <img src="img/poleemploi.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;">
+                    <a target="_blank" href="https://www.pole-emploi.fr/annuaire/montaigu-85010"><img src="img/poleemploi.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;"></a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <div class="body_offer">
-                        <img src="img/capemploi.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;">
+                        <a target="_blank" href="http://www.capemploi85.com/"><img src="img/capemploi.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;"></a>
                     </div>
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <div class="body_offer">
-                        <img src="img/mdede.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;">
+                        <a target="_blank" href="http://www.emploi.vendee.fr/"><img src="img/mdede.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;"></a>
                     </div>
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <div class="body_offer">
-                        <img src="img/missionlocale.png" alt="" style="max-width:100%;max-height:100%;box-shadow:none;">
+                        <a target="_blank" href="http://www.mlhb.fr/"><img src="img/missionlocale.png" alt="" style="max-width:100%;max-height:100%;box-shadow:none;"></a>
                     </div>
                 </div>
               </div>
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <div class="body_offer">
-                        <img src="img/regionpdl.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;">
+                        <a target="_blank" href="http://www.paysdelaloire.fr/"><img src="img/regionpdl.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;"></a> 
                     </div>
                 </div>
               </div>
@@ -348,7 +350,7 @@
             }, 1000);
             </script>
 
-            
+
 
 
 @endsection
