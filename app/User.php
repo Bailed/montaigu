@@ -5,6 +5,8 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use App\Model\Company;
+use Auth;
 
 class User extends Authenticatable
 {
@@ -16,7 +18,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'company'
     ];
 
     /**
@@ -27,4 +29,14 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+
+    public function company() {
+        return Company::where('uid',Auth::user()->company)->first();
+    }
+
+    public function values() {
+        $company = Company::where('uid',Auth::user()->company)->first();
+        return json_decode($company->company_values, true);
+    }
 }

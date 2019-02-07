@@ -55,7 +55,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-light bg-light static-top text-center">
           <div class="container text-center">
-            <a class="navbar-brand" href="/" style="margin-left:auto;margin-right:auto;">
+            <a class="navbar-brand" href="/" style="margin-left:45%;margin-right:auto;">
                 <img src="img/logo.png" alt="" style="width:150px;">
             </a>
             <ul class="nav nav-pills">
@@ -93,17 +93,18 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-3">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.9643023032445!2d-1.3083586843910486!3d46.98203577914819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805d80590ef6d8d%3A0x2a8ca2b86b6617d1!2s19h%2C+9+Espl.+de+Verdun%2C+85600+Montaigu!5e0!3m2!1sfr!2sfr!4v1548932719684"  width="200" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10888.061833880218!2d-1.3082358!3d46.981031!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb76df32b7afef6!2zVGjDqcOidHJlIGRlIFRoYWxpZQ!5e0!3m2!1sfr!2sfr!4v1549541249517" width="200" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <div class="col-lg-3">
                         <div class="row">
                             <h5 class="first_letter">Contact</h5>
                         </div>
                         <div class="row">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis
-                                <br>Telephone
-                                <br>Email
-                            </p>
+                            <p><b>Terres de Montaigu</b>
+                            <br>35 Avenue Villebois Mareuil
+                            <br>85600 Montaigu-Vendée
+                            <br><b>Du lundi au vendredi</b>
+                            <br>9h-12h30 / 14h-17h30</p>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -121,7 +122,11 @@
                             <h5 class="first_letter">Lien utile</h5>
                         </div>
                         <div class="row">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis
+                            <p>
+                                <a target="_blank" style="color:white;text-decoration:underline;" href="http://www.terresdemontaigu.fr/">Terres de Montaigu</a>
+                                <br><a target="_blank" style="color:white;text-decoration:underline;" href="https://www.pole-emploi.fr/annuaire/montaigu-85010">Pole Emploi Montaigu</a>
+                                <br><a target="_blank" style="color:white;text-decoration:underline;" href="http://www.emploi.vendee.fr">Emploi Vendée</a>
+                                <br><a target="_blank" style="color:white;text-decoration:underline;" href="http://www.paysdelaloire.fr">Pays de la Loire</a>
                             </p>
                         </div>
                     </div>
@@ -133,6 +138,35 @@
             <!-- Bootstrap core JavaScript -->
             <script src="vendor/jquery/jquery.min.js"></script>
             <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("March 29, 2019 00:00:01").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+
+                  // Get todays date and time
+                  var now = new Date().getTime();
+
+                  // Find the distance between now and the count down date
+                  var distance = countDownDate - now;
+
+                  // Time calculations for days, hours, minutes and seconds
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                  // Display the result in the element with id="demo"
+                  document.getElementById("demo").innerHTML = "J-" + days + " H- " + hours;
+
+                  // If the count down is finished, write some text
+                  if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                  }
+                }, 1000);
+                </script>
 
           </body>
 

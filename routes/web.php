@@ -18,7 +18,8 @@ Route::get('/', function () {
 });
 
 Route::group(['middleware' => 'auth'], function() {
-
+    Route::get('mise-a-jour-entreprise','CompaniesController@update')->name('company.update');
+    Route::post('mise-a-jour-entreprise/{uid}','CompaniesController@updatePost')->name('company.update.post');
 });
 
 // Companies Routes...
