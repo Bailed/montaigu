@@ -140,7 +140,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10888.061833880218!2d-1.3082358!3d46.981031!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb76df32b7afef6!2zVGjDqcOidHJlIGRlIFRoYWxpZQ!5e0!3m2!1sfr!2sfr!4v1549541249517" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10888.061833880218!2d-1.3082358!3d46.981031!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb76df32b7afef6!2zVGjDqcOidHJlIGRlIFRoYWxpZQ!5e0!3m2!1sfr!2sfr!4v1549541249517" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <div class="col-lg-2">
                         <div class="row">
@@ -152,6 +152,8 @@
                             <br>85600 Montaigu-Vendée
                             <br><b>Du lundi au vendredi</b>
                             <br>9h-12h30 / 14h-17h30</p>
+                            <br><b>Téléphone</b>
+                            <br><a href="tel:0251464544">02.51.46.45.44</a>
                         </div>
                     </div>
                     <div class="col-lg-3">
