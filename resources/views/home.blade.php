@@ -23,7 +23,7 @@
                             <i>non défini pour le moment</i>
                         @endif
                     <br><b>Nombre de propositions d'emploi sur l'année :</b> @if(Auth::user()->company()->nb_jobs) {{ Auth::user()->company()->nb_jobs }} @else <i>non défini pour le moment</i> @endif
-                    <br><b>Les 5 valeurs de l'entreprise :</b> @if($company_values) @foreach($company_values as $value) {{ $value }} @endforeach @endif
+                    <br><b>Les 5 valeurs de l'entreprise :</b> @if($company_values) @foreach($company_values as $value) {{ $value }} @endforeach @elseif <i>non défini pour le moment</i> @endif
                 </div>
             </div>
         </div>
