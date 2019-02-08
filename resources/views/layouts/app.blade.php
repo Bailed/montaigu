@@ -152,8 +152,7 @@
                             <br>85600 Montaigu-Vendée
                             <br><b>Du lundi au vendredi</b>
                             <br>9h-12h30 / 14h-17h30</p>
-                            <br><b>Téléphone</b>
-                            <br><a href="tel:0251464544" style="color:white">02.51.46.45.44</a>
+                            <br><a href="tel:0251464544" style="color:white;text-decoration:underline">02.51.46.45.44</a>
                         </div>
                     </div>
                     <div class="col-lg-3">
