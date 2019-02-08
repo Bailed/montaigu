@@ -142,7 +142,7 @@
                     <div class="col-lg-4">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10888.061833880218!2d-1.3082358!3d46.981031!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb76df32b7afef6!2zVGjDqcOidHJlIGRlIFRoYWxpZQ!5e0!3m2!1sfr!2sfr!4v1549541249517" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-3">
                         <div class="row">
                             <h5 class="first_letter">Contact</h5>
                         </div>
@@ -153,7 +153,7 @@
                             <br><b>Du lundi au vendredi</b>
                             <br>9h-12h30 / 14h-17h30</p>
                             <br><b>Téléphone</b>
-                            <br><a href="tel:0251464544">02.51.46.45.44</a>
+                            <br><a href="tel:0251464544" style="color:white">02.51.46.45.44</a>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -166,7 +166,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-3" style="background: url('img/m-footer.png') no-repeat;background-size:70%;background-position:center center;">
+                    <div class="col-lg-2" style="background: url('img/m-footer.png') no-repeat;background-size:70%;background-position:center center;">
                         <div class="row">
                             <h5 class="first_letter">Lien utile</h5>
                         </div>
