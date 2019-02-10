@@ -82,43 +82,43 @@
             <div class="row">
                 <section class="center slider">
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/sodebo.png">
+                    <img src="img/logos/Logo_Sodebo_300X300_Terres-de-Montaigu.jpg">
                     <p>Aggroalimentaire</p>
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/fmlogistic.jpg">
+                    <img src="img/logos/Logo_FM_300X300_Terres-de-Montaigu.jpg">
                     <p>Logistique / Transport</p>
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/defontaine.png">
+                    <img src="img/logos/Logo_Defontaine_300X300_Terres-de-Montaigu.jpg">
                     <p>Industrie</p>
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/gps.jpeg">
+                    <img src="img/logos/Logo_Ponroy_300X300_Terres-de-Montaigu.jpg">
                     <p>Agroalimentaire</p>
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/saintjames.png">
+                    <img src="img/logos/Logo_Hotel-Saint-James-Terres-de-Montaigu.jpg">
                     <p>Hôtellerie</p>
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/laiterie.jpg">
+                    <img src="img/logos/Logo_Laiterie-de-Montaigu-Terres-de-Montaigu.jpg">
                     <p>Agroalimentaire</p>
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/chdvendee.png">
+                    <img src="img/logos/Logo_CHD-Terres-de-Montaigu.jpg">
                     <p>Service à la personne</p>
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/superu.jpg">
+                    <img src="img/logos/Logo_super-u-Terres-de-Montaigu.jpg">
                     <p>Commerce</p>
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/gebe.png">
+                    <img src="img/logos/Logo_Gebe-Terres-de-Montaigu.jpg">
                     <p>Industrie</p>
                   </div>
                   <div>
-                      <img src="img/logos/telechargement.png">
+                      <img src="img/logos/Logo_Fonteneau-Terres-de-Montaigu.jpg">
                       <p>Agroalimentaire</p>
                   </div>
                 </section>
@@ -310,7 +310,7 @@
               <div class="col-lg-2">
                 <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                     <div class="body_offer">
-                        <a target="_blank" href="http://www.paysdelaloire.fr/"><img src="img/regionpdl.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;"></a> 
+                        <a target="_blank" href="http://www.paysdelaloire.fr/"><img src="img/regionpdl.jpg" alt="" style="max-width:100%;max-height:100%;box-shadow:none;"></a>
                     </div>
                 </div>
               </div>

@@ -30,7 +30,8 @@ class CompaniesController extends Controller
         $oldCompany = Company::where('contact_mail',$request->input('contact_mail'))->first();
 
         if($oldCompany) {return view('company.create')->with('error','Cet email est déjà utilisé.');}
-
+        if($request->input('accompagner')) {$accompagner = true;} else {$accompagner = null;}
+        if($request->input('confirmation')) {$confirmation = true;} else {$confirmation = null;}
         $company = Company::create([
             'uid' => Uuid::generate(),
             'name' => $request->input('name'),
@@ -44,6 +45,8 @@ class CompaniesController extends Controller
             'contact_mail' => $request->input('contact_mail'),
             'activity_area' => $request->input('activity_area'),
             'nb_jobs' => $request->input('nb_jobs'),
+            'accompagnement' => $accompagner,
+            'confirmation' => $confirmation,
             'company_values' => json_encode($values)
         ]);
 

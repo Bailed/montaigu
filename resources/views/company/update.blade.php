@@ -70,11 +70,11 @@
         </div>
         <div class="col-lg-12 text-center">
             <div class="form-check">
-               <input type="checkbox" class="form-check-input" name="accompagner">
+               <input type="checkbox" class="form-check-input" name="accompagner" @if(Auth::user()->company()->accompagnement) checked @endif disabled>
                <label class="form-check-label">Je souhaite être accompagné dans la préparation du salon en participant à l'atelier Destination Emploi qui aura lieu le jeudi 28 février 2019 de 8h30 à 11h00 à Montaigu-Vendée (une invitation précise vous sera adressée par email).</label>
              </div>
              <div class="form-check">
-                <input type="checkbox" class="form-check-input" name="confirmation" required="required">
+                <input type="checkbox" class="form-check-input" name="confirmation" @if(Auth::user()->company()->confirmation) checked @endif disabled>
                 <label class="form-check-label">Je confirme ma participation au salon Destination Emploi le vendredi 29 mars 2019 et m'engage à régler une participation de 300€ net de taxe à Terres de Montaigu sur facture.
                 </label>
               </div>

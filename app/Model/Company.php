@@ -27,7 +27,9 @@ class Company extends Authenticatable
         'contact_mail',
         'activity_area',
         'nb_jobs',
-        'company_values'
+        'company_values',
+        'accompagnement',
+        'confirmation'
 
     ];
 
