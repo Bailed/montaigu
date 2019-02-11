@@ -5,7 +5,7 @@
         <header class="masthead text-white">
         <div id="demo" style="position:relative;width:200px;height:40px;text-align:center;margin-top:-12em;right:20%;float:right;background: url('img/date.svg') no-repeat;font-weight:bold;"></div>
 
-         <div class="overlay"></div>
+         <div class="overlay" style="margin-top:4.5em;"></div>
           <div class="container">
             <div class="row">
               <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;margin-top:-100px;">
