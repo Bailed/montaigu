@@ -21,9 +21,9 @@
                     <td>{{$company->contact_mail}}</td>
                     <td>{{$company->address}} <br> {{$company->zip}} {{$company->town}}</td>
                     <td>
-                        {{$contact_first_name}} {{$contact_last_name}}<br>
-                        {{$contact_status}}<br>
-                        <a href="tel:{{$contact_phone}}">{{$contact_phone}}</a> | <a href="tel:{{$contact_mail}}">{{$contact_mail}}</a>
+                        {{$company_first_name}} {{$company_last_name}}<br>
+                        {{$company_status}}<br>
+                        <a href="tel:{{$company_phone}}">{{$company_phone}}</a> | <a href="tel:{{$company_mail}}">{{$company_mail}}</a>
                     </td>
                 </tr>
             @endif
