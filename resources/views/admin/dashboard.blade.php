@@ -39,6 +39,7 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
+                        <th>Entreprise</th>
                         <th>Nom</th>
                         <th>Description</th>
                         <th>Actions</th>
@@ -47,6 +48,7 @@
                 <tbody>
                     @foreach($jobs as $job)
                     <tr>
+                        <td>{{$job->company()->name}}</td>
                         <td>{{$job->name}}</td>
                         <td class="text-justify">{{substr($job->resume, 0, 100)}}...</td>
                         <td class="text-center">
@@ -57,7 +59,7 @@
                 </tbody>
             </table>
         </div>
-    </div>   
+    </div>
 </div>
 
 
