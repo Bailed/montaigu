@@ -127,6 +127,13 @@
                       <i class="fas fa-home" style="padding:0.35em 0.5em 0.5em 0.5em;color:#E5007D"></i>
                   </a>
               </li>
+              @if(Auth::user()->company()->uid == "administration")
+              <li class="presentation">
+                  <a href="{{route('admin.dashboard')}}">
+                      <i class="fas fa-cogs" style="padding:0.35em 0.5em 0.5em 0.5em;color:#E5007D"></i>
+                  </a>
+              </li>
+              @endif
               <li role="presentation">
                     <a href="{{route('logout')}}">
                         <i class="fas fa-sign-out-alt" style="padding:0.35em 0.5em 0.5em 0.5em;color:#E5007D"></i>
