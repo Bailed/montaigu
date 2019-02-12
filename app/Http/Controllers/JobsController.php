@@ -41,7 +41,13 @@ class JobsController extends Controller
             'img_url' => $request->input('img_url')
         ]);
 
-        return redirect()->route('home');
+        if(Auth::user()->company()->uid == "administration") {
+            return redirect()->route('admin.dashboard');
+        }
+        else {
+            return redirect()->route('home');
+        }
+
     }
 
     public function delete($uid) {
