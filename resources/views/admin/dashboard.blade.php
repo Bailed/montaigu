@@ -33,7 +33,7 @@
             </tbody>
         </table>
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-4">
         <h5>Les offres</h5>
         <table class="table table-striped">
             <thead>
