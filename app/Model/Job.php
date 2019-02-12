@@ -29,7 +29,7 @@ class Job extends Authenticatable
      */
 
      public function company() {
-         return Company::where('uid',self::company_uid)->first();
+         return Company::where('uid',$this->company_uid)->first();
      }
 
 }
