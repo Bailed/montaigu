@@ -17,7 +17,8 @@ class AdminController extends Controller
     public function dashboard() {
         if(Auth::user()->company()->uid != 'administration') {return redirect()->route('home');}
         $companies = Company::get();
+        $jobs = Job::get();
 
-        return view('admin.dashboard')->with('companies',$companies);
+        return view('admin.dashboard')->with('companies',$companies)->with('jobs',$jobs);
     }
 }
