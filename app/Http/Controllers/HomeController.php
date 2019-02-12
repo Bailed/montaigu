@@ -27,7 +27,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $jobs = Job::where('company_uid',Auth::user()->company()->uid)->get();
+        if(Auth::user()->company()->uid == "administration") {
+            $jobs = Job::get();
+        }
+        else {
+            $jobs = Job::where('company_uid',Auth::user()->company()->uid)->get();
+        }
         return view('home')->with('jobs',$jobs);
     }
 }
