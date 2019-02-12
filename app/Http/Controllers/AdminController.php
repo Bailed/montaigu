@@ -7,6 +7,7 @@ use App\Model\Company;
 use Uuid;
 use Auth;
 use App\User;
+use App\Model\Job;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
