@@ -28,4 +28,8 @@ class Job extends Authenticatable
      * @var array
      */
 
+     public function company() {
+         return Company::where('uid',self::company_uid)->first();
+     }
+
 }
