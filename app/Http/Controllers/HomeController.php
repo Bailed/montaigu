@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Model\Job;
+
+use Auth;
+
 class HomeController extends Controller
 {
     /**
@@ -23,6 +27,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $jobs = Job::where('company_uid',Auth::user()->company()->uid)->get();
+        return view('home')->with('jobs',$jobs);
     }
 }

@@ -7,18 +7,18 @@
         <title>Gestion - Salon de l'emploi - Montaigu</title>
 
         <!-- Fonts -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
         <!-- Custom fonts for this template -->
-        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+        <link href="{{ asset('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet">
+        <link href="{{ asset('vendor/simple-line-icons/css/simple-line-icons.css')}}" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
         <!-- Custom styles for this template -->
-        <link href="css/landing-page.css" rel="stylesheet">
+        <link href="{{ asset('css/landing-page.css')}}" rel="stylesheet">
 
-        <link rel="stylesheet" type="text/css" href="css/slick.css">
-        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css')}}">
         <style type="text/css">
           html, body {
             margin: 0;
@@ -64,7 +64,7 @@
 
         <style media="screen">
             .first_letter {
-                background: url("../img/rond-titres.png") no-repeat;
+                background: url("{{ asset('img/rond-titres.png')}}") no-repeat;
                 background-position: 0px 0px;
                 padding:30px;
                 float:left;
@@ -82,7 +82,7 @@
             }
 
             .work_thumb:hover {
-                background: url('img/icon-survol1.svg') no-repeat !important;
+                background: url("{{ asset('img/icon-survol1.svg')}}") no-repeat !important;
                 background-size:full !important;
                 background-position:left center;
                 width:120px !important;
@@ -101,18 +101,18 @@
         <nav class="navbar navbar-light bg-light static-top text-center">
           <div class="container text-center">
             <a class="navbar-brand" href="/" style="margin-left:42.5%;margin-right:auto;">
-                <img src="img/logo.png" alt="" style="width:150px;">
+                <img src="{{ asset('img/logo.png')}}" alt="" style="width:150px;">
             </a>
             <ul class="nav nav-pills">
               <li role="presentation">
-                  <a href="https://www.facebook.com/terresdemontaigu/" target="_blank"><img src="img/icon-f.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
+                  <a href="https://www.facebook.com/terresdemontaigu/" target="_blank"><img src="{{ asset('img/icon-f.svg')}}" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
               </li>
               <li role="presentation">
-                  <a href="https://www.linkedin.com/company/terres-de-montaigu/about/" target="_blank"><img src="img/icon-in.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
+                  <a href="https://www.linkedin.com/company/terres-de-montaigu/about/" target="_blank"><img src="{{ asset('img/icon-in.svg') }}" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
               </li>
               <!--
               <li role="presentation">
-                  <a href="#"><img src="img/icon-t.svg" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
+                  <a href="#"><img src="{{ asset('img/icon-t.svg') }}" alt="" style="width:25px;margin-left:0.2em;margin-right:0.2em;"></a>
               </li>
             -->
               @if(!Auth::user())
@@ -122,6 +122,11 @@
                     </a>
               </li>
               @else
+              <li class="presentation">
+                  <a href="{{route('home')}}">
+                      <i class="fas fa-home" style="padding:0.35em 0.5em 0.5em 0.5em;color:#E5007D"></i>
+                  </a>
+              </li>
               <li role="presentation">
                     <a href="{{route('logout')}}">
                         <i class="fas fa-sign-out-alt" style="padding:0.35em 0.5em 0.5em 0.5em;color:#E5007D"></i>
@@ -165,7 +170,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-2" style="background: url('img/m-footer.png') no-repeat;background-size:70%;background-position:center center;">
+                    <div class="col-lg-2" style="background: url("{{ asset('img/m-footer.png')}}") no-repeat;background-size:70%;background-position:center center;">
                         <div class="row">
                             <h5 class="first_letter">Lien utile</h5>
                         </div>
@@ -184,10 +189,10 @@
             </footer>
 
             <!-- Bootstrap core JavaScript -->
-            <script src="vendor/jquery/jquery.min.js"></script>
-            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="{{ asset('vendor/jquery/jquery.min.js')}}"></script>
+            <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
             <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-            <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+            <script src="{{ asset('js/slick.js')}}" type="text/javascript" charset="utf-8"></script>
             <script type="text/javascript">
               $(document).on('ready', function() {
                 $(".center").slick({

@@ -13,6 +13,7 @@
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/home', 'JobsController@add')->name('job.add');
 Route::get('/', function () {
     return view('welcome');
 });
@@ -21,6 +22,10 @@ Route::group(['middleware' => 'auth'], function() {
     Route::get('mise-a-jour-entreprise','CompaniesController@update')->name('company.update');
     Route::post('mise-a-jour-entreprise/{uid}','CompaniesController@updatePost')->name('company.update.post');
     Route::get('administration','AdminController@dashboard')->name('admin.dashboard');
+
+    Route::get('job/{uid}','JobsController@edit')->name('job.edit');
+    Route::post('job/{uid}', 'JobsController@update')->name('job.edit.post');
+    Route::get('job/{uid}/delete', 'JobsController@delete')->name('job.delete');
 });
 
 // Companies Routes...
