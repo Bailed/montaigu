@@ -5,7 +5,7 @@
 <div class="container-fluid" style="padding-top:3em;padding-bottom:3em;">
     <h4>Administration des entreprises et des offres</h4>
     <div class="row">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
             <h5>Les entreprises</h5>
             <table class="table table-striped">
                 <thead>
@@ -14,6 +14,7 @@
                         <th>Email</th>
                         <th>Adresse</th>
                         <th>Contact</th>
+                        <th>Autre</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -28,13 +29,17 @@
                                 {{$company->contact_status}}<br>
                                 <a href="tel:{{$company->contact_phone}}">{{$company->contact_phone}}</a> | <a href="tel:{{$company->contact_mail}}">{{$company->contact_mail}}</a>
                             </td>
+                            <td>
+                                <b>Confirmation :</b> @if($company->confirmation) Oui @else Non @endif <br>
+                                <b>Accompagnement :</b> @if($company->accompagnement) Oui @else Non @endif
+                            </td>
                         </tr>
                     @endif
                     @endforeach
                 </tbody>
             </table>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-4">
             <h5>Les offres</h5>
             <table class="table table-striped">
                 <thead>

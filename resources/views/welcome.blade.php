@@ -9,7 +9,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;margin-top:-100px;">
-                <p style="font-size:1.5em;"><b>Théatre de Thalie 9h-19<br>Montaigu-Vendée<br></b></p>
+                <p style="font-size:1.5em;"><b>Théâtre de Thalie 9h-19<br>Montaigu-Vendée<br></b></p>
                 <img src="img/destination-emploi.svg" alt="" style="width:50%;">
                 <p style="font-size:2.3em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Vendredi 29 mars,<br> prenez la bonne <br> direction pour <br> votre emploi.</p>
                 <a href="#features-icons">
@@ -82,44 +82,76 @@
             <div class="row">
                 <section class="center slider">
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/Logo_Sodebo_300X300_Terres-de-Montaigu.jpg">
-                    <p>Aggroalimentaire</p>
+                    <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Agroalimentaire</p>
+                    <img style="margin-top:-1em;" src="img/logos/Logo_Sodebo_300X300_Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/Logo_FM_300X300_Terres-de-Montaigu.jpg">
-                    <p>Logistique / Transport</p>
+                      <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Logistique</p>
+                    <img style="margin-top:-1em;" src="img/logos/Logo_FM_300X300_Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/Logo_Defontaine_300X300_Terres-de-Montaigu.jpg">
-                    <p>Industrie</p>
+                      <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Industrie</p>
+                    <img style="margin-top:-1em;" src="img/logos/Logo_Defontaine_300X300_Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/Logo_Ponroy_300X300_Terres-de-Montaigu.jpg">
-                    <p>Agroalimentaire</p>
+                      <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Agroalimentaire</p>
+                    <img style="margin-top:-1em;" src="img/logos/Logo_Ponroy_300X300_Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/Logo_Hotel-Saint-James-Terres-de-Montaigu.jpg">
-                    <p>Hôtellerie</p>
+                      <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Hôtellerie</p>
+                    <img style="margin-top:-1em;" src="img/logos/Logo_Hotel-Saint-James-Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/Logo_Laiterie-de-Montaigu-Terres-de-Montaigu.jpg">
-                    <p>Agroalimentaire</p>
+                      <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Agroalimentaire</p>
+                    <img style="margin-top:-1em;" src="img/logos/Logo_Laiterie-de-Montaigu-Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/Logo_CHD-Terres-de-Montaigu.jpg">
-                    <p>Service à la personne</p>
+                      <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Service à la personne</p>
+                    <img style="margin-top:-1em;" src="img/logos/Logo_CHD-Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/Logo_super-u-Terres-de-Montaigu.jpg">
-                    <p>Commerce</p>
+                      <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Commerce</p>
+                    <img style="margin-top:-1em;" src="img/logos/Logo_super-u-Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <img src="img/logos/Logo_Gebe-Terres-de-Montaigu.jpg">
-                    <p>Industrie</p>
+                      <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Industrie</p>
+                    <img style="margin-top:-1em;" src="img/logos/Logo_Gebe-Terres-de-Montaigu.jpg">
                   </div>
                   <div>
-                      <img src="img/logos/Logo_Fonteneau-Terres-de-Montaigu.jpg">
-                      <p>Agroalimentaire</p>
+                       <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Agroalimentaire</p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Fonteneau-Terres-de-Montaigu.jpg">
+
+                  </div>
+
+                  <div>
+                       <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Bâtiment</p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_LCA-Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Reel-Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Immobilier</p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Duret-Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Restauration</p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Mac_Donald-Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Agroalimentaire</p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Briogel-Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:left;padding-left:0.5em;width:100%;background-color:#00B2BB;">Transport</p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Hervouet-Terres-de-Montaigu.jpg">
+
                   </div>
                 </section>
             <!--
