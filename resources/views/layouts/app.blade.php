@@ -203,11 +203,17 @@
             <script src="{{ asset('js/slick.js')}}" type="text/javascript" charset="utf-8"></script>
             <script type="text/javascript">
               $(document).on('ready', function() {
+                if ($(window).width() < 768) {
+                    var nbSlide = 1;
+                }
+                else {
+                    var nbSlide = 5;
+                }
                 $(".center").slick({
                   dots: true,
                   infinite: true,
                   centerMode: true,
-                  slidesToShow: 5,
+                  slidesToShow: nbSlide,
                   slidesToScroll: 2
                 });
               });

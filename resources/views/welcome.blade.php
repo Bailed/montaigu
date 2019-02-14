@@ -1,10 +1,39 @@
 @extends('layouts.app')
-
 @section('content')
+<style media="screen">
+
+#demo {
+    position:relative;width:200px;height:40px;text-align:center;margin-top:-12em;right:20%;float:right;background: url('img/date.svg') no-repeat;font-weight:bold;
+}
+#demo2 {display:none;}
+.arrow_header {margin-top:-6em;}
+.showcase-text-special {background: url('img/fond-decor.svg') no-repeat no-repeat;background-size:full;background-position: right bottom;}
+.new_place {width:80%;margin-left:80px}
+@media (max-width: 767px) {
+    #demo {
+        display:none;
+    }
+
+    #demo2 {
+        display:block;
+        position:absolute;
+        width:100%;
+        height:40px;
+        text-align:center;
+        background: #E5007D;
+        color: white;
+        font-weight:bold;
+    }
+    .arrow_header {margin-top:0em;padding-bottom:1em;}
+    .showcase-text-special {background: url('img/fond-decor.svg') no-repeat no-repeat;background-size:cover;background-position: top right;}
+    section.showcase {margin-left:0px !important;}
+    .new_place {width:100%;margin-left:0px}
+    .img-special {display: none !important;}
+}
+</style>
         <!-- Masthead -->
         <header class="masthead text-white">
-        <div id="demo" style="position:relative;width:200px;height:40px;text-align:center;margin-top:-12em;right:20%;float:right;background: url('img/date.svg') no-repeat;font-weight:bold;"></div>
-
+        <div id="demo" style=""></div>
          <div class="overlay" style="margin-top:4.5em;"></div>
           <div class="container">
             <div class="row">
@@ -14,14 +43,16 @@
                 <p style="font-size:2.3em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Vendredi 29 mars,<br> prenez la bonne <br> direction pour <br> votre emploi.</p>
                 <a href="#features-icons">
                 <div style="width:50px;margin-left:auto;margin-right:auto;z-index:1000">
-                    <img src="img/fleche.svg" alt="" style="margin-top:-6em;">
+                    <img class="arrow_header" src="img/fleche.svg" alt="" style="">
                 </div>
                 </a>
               </div>
             </div>
           </div>
         </header>
-
+        <div class="container" style="padding-top:1em;background-color:#E5007D;width: 100%;padding-right: 0px;padding-left: 0px;margin-right:0px;margin-left:0px;">
+            <div id="demo2"></div>
+        </div>
         <!-- Icons Grid -->
         <section id="features-icons" class="features-icons" style="background-color:white;margin-top:-2em;background: url('../img/demi-cercle1.svg') no-repeat;background-position: 25% bottom;background-size:150px;">
           <div class="container">
@@ -169,7 +200,7 @@
           <div class="container-fluid p-0">
             <div class="row no-gutters">
               <div class="col-lg-6 text-white showcase-img" style="background: url('img/stock_thumb_destination.jpeg') no-repeat;background-size:cover;"></div>
-              <div class="col-lg-6 showcase-text" style="background: url('img/fond-decor.svg') no-repeat no-repeat;background-size:full;background-position: right bottom;">
+              <div class="col-lg-6 showcase-text showcase-text-special">
                 <h2 class="first_letter" style="color:#2C2D78"> Destination Emploi : une journée pour trouver un emploi et bien plus encore.</h2>
                 <p class="lead mb-0" style="padding-left:1.5em;color:#2C2D78">Destination Emploi, c’est la journée incontournable de l’emploi en Terres de Montaigu. Que vous soyez à la recherche d’un emploi, étudiant, en reconversion ou simplement à l’écoute de nouvelles opportunités, vous y trouverez de nombreuses offres d’emploi disponibles immédiatement ainsi que toutes les informations sur la formation professionnelle et la reconversion.</h2>
             </div>
@@ -215,7 +246,7 @@
         <section class="showcase" style="width:90%;margin-left:5%;background-color:white;background: url('../img/demi-cercle2.svg') no-repeat;background-position: right top;background-size:150px;">
           <div class="container-fluid p-0">
             <div class="row no-gutters">
-              <div class="col-lg-8 showcase-text">
+              <div class="col-lg-8 showcase-text showcase-text-special">
                 <h2 class="first_letter" style="color:#2C2D78"> Votre entreprise recrute et vous n'êtes pas encore inscrits ?<br>
                 <br><span style="text-shadow: 1px 1px 2px #12B7C0;"><span style="font-weight:300;">Ici, trouvez vos</span> futurs collaborateurs.</span></h2>
                 <p class="lead mb-0" style="color:#2C2D78;padding-left:1.5em;text-align:justify;">Donnez de la visibilité à vos offres d’emploi et venez à la rencontre des candidats du territoire et d’ailleurs. Bénéficiez d’un espace dédié sur le salon et de nos conseils pour faire valoir les atouts de votre entreprise et trouver les candidats les plus motivés et performants. Inscrivez-vous dès maintenant directement en ligne, pour participer à la journée Destination Emploi.</h2>
@@ -239,7 +270,7 @@
           <div class="container-fluid p-0">
             <div class="row no-gutters">
               <div class="col-lg-8 showcase-text">
-                  <div style="width:80%;margin-left:80px">
+                  <div style="" class="new_place">
                       <h2 class="first_letter" style="color:white;">Nouveau lieu, nouveau format, nouvelle destination pour l’emploi</h2>
                       <p class="lead mb-0" style="color:white;padding-left:1.5em;">Chaque année depuis 7 ans, Pôle Emploi organise les rendez-vous de l’emploi afin de répondre au dynamisme croissant des entreprises et à leurs besoins en recrutement.
                           <br><br>
@@ -250,7 +281,7 @@
                           <p style="color:white;padding-left:1.7em;">Théâtre de Thalie / Montaigu-Vendée / 9h-19h</p>
                     </div>
             </div>
-            <div class="col-lg-4 showcase-img" style="background: url('img/lieu.png') no-repeat;background-size:cover">
+            <div class="col-lg-4 showcase-img img-special" style="background: url('img/lieu.png') no-repeat;background-size:cover">
             </div>
           </div>
         </section>
@@ -373,11 +404,13 @@
 
               // Display the result in the element with id="demo"
               document.getElementById("demo").innerHTML = "J-" + days + " H- " + hours;
+               document.getElementById("demo2").innerHTML = "J-" + days + " H- " + hours;
 
               // If the count down is finished, write some text
               if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
+                document.getElementById("demo").innerHTML = "Aujourd'hui !";
+                document.getElementById("demo2").innerHTML = "Aujourd'hui !";
               }
             }, 1000);
             </script>
