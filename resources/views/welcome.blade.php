@@ -5,7 +5,7 @@
 #demo {
     position:relative;width:200px;height:40px;text-align:center;margin-top:-12em;right:20%;float:right;background: url('img/date.svg') no-repeat;font-weight:bold;
 }
-#demo2 {display:none;}
+#demo2,#demo2-container {display:none;}
 .arrow_header {margin-top:-6em;}
 .showcase-text-special {background: url('img/fond-decor.svg') no-repeat no-repeat;background-size:full;background-position: right bottom;}
 .new_place {width:80%;margin-left:80px}
@@ -29,6 +29,7 @@
     section.showcase {margin-left:0px !important;}
     .new_place {width:100%;margin-left:0px}
     .img-special {display: none !important;}
+    .slick-dots {display: none !important;}
 }
 </style>
         <!-- Masthead -->
@@ -50,7 +51,7 @@
             </div>
           </div>
         </header>
-        <div class="container" style="padding-top:1em;background-color:#E5007D;width: 100%;padding-right: 0px;padding-left: 0px;margin-right:0px;margin-left:0px;">
+        <div id="demo2-container" class="container" style="padding-top:1em;background-color:#E5007D;width: 100%;padding-right: 0px;padding-left: 0px;margin-right:0px;margin-left:0px;">
             <div id="demo2"></div>
         </div>
         <!-- Icons Grid -->

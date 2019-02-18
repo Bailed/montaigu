@@ -44,7 +44,7 @@
 
           .slick-prev:before,
           .slick-next:before {
-            color: black;
+            color: #E5007D;
           }
 
 
@@ -146,15 +146,18 @@
             @yield('content')
             <!-- Footer -->
             <footer class="footer" style="color:white;background-color:#31328A">
-              <div class="container-fluid" style="width:80%">
+              <div class="container-fluid" style="width:90%">
                 <div class="row" style="padding-bottom:2em;">
                     <h4>Comment se rendre à destination emploi ?</h4>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-3">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10888.061833880218!2d-1.3082358!3d46.981031!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb76df32b7afef6!2zVGjDqcOidHJlIGRlIFRoYWxpZQ!5e0!3m2!1sfr!2sfr!4v1549541249517" height="350" frameborder="0" style="width:100%;border:0;padding-bottom:3em;" allowfullscreen></iframe>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-1">
+
+                    </div>
+                    <div class="col-lg-2">
                         <div class="row">
                             <h5 class="first_letter">Contact</h5>
                         </div>
@@ -169,7 +172,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-2">
                         <div class="row">
                             <h5 class="first_letter">Accès</h5>
                         </div>
@@ -178,12 +181,12 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4" style="background: url('{{ asset("img/m-footer.png")}}') no-repeat;background-size:70%;background-position:left center;">
+                    <div class="col-lg-3" style="background: url('{{ asset("img/m-footer.png")}}') no-repeat;background-size:70%;background-position:left center;">
                         <div class="row">
                             <h5 class="first_letter">Liens utiles</h5>
                         </div>
                         <div class="row">
-                            <p>
+                            <p style="text-justify;width:80%;margin-left:auto;margin-right:auto;">
                                 <a target="_blank" style="color:white;text-decoration:underline;" href="http://www.terresdemontaigu.fr/">Terres de Montaigu</a>
                                 <br><a target="_blank" style="color:white;text-decoration:underline;" href="https://www.pole-emploi.fr/annuaire/montaigu-85010">Pole Emploi Montaigu</a>
                                 <br><a target="_blank" style="color:white;text-decoration:underline;" href="http://www.emploi.vendee.fr">Emploi Vendée</a>
