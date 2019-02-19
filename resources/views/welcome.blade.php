@@ -154,12 +154,6 @@
                        <img style="margin-top:-1em;" src="img/logos/Logo_Fonteneau-Terres-de-Montaigu.jpg">
 
                   </div>
-
-                  <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
-                       <img style="margin-top:-1em;" src="img/logos/Logo_LCA-Terres-de-Montaigu.jpg">
-
-                  </div>
                   <div>
                        <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;">Service à la personne</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_Reel-Terres-de-Montaigu.jpg">
@@ -187,32 +181,32 @@
                   </div>
 
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Construction</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_Vinci_Terres-de-Montaigu.jpg">
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Industrie</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_Tronico-Terres-de-Montaigu.jpg">
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_Moinard-Terres-de-Montaigu.jpg">
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_LCA-Terres-de-Montaigu.jpg">
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_Difagri-Terres-de-Montaigu.jpg">
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Banque</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_CA-Terres-de-Montaigu.jpg">
 
                   </div>
