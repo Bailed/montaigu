@@ -39,7 +39,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;margin-top:-100px;">
-                <p style="font-size:1.5em;"><b>Théâtre de Thalie 9h-19<br>Montaigu-Vendée<br></b></p>
+                <p style="font-size:1.5em;"><b>Théâtre de Thalie 9h-19h<br>Montaigu-Vendée<br></b></p>
                 <img src="img/destination-emploi.svg" alt="" style="width:50%;">
                 <p style="font-size:2.3em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Vendredi 29 mars,<br> prenez la bonne <br> direction pour <br> votre emploi.</p>
                 <a href="#features-icons">
@@ -75,7 +75,7 @@
                   <div class="features-icons-icon d-flex">
                     <img src="img/350offres.svg" alt="" style="width:4em;margin-left:auto;margin-right:auto;">
                   </div>
-                  <p class="lead mb-0"><b style="font-size:1em;font-weight:bold;">350 offres</b> prêtes à l'emploi</p>
+                  <p class="lead mb-0"><b style="font-size:1em;font-weight:bold;">500 offres</b> prêtes à l'emploi</p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -83,7 +83,7 @@
                   <div class="features-icons-icon d-flex">
                     <img src="img/50entreprises.svg" alt="" style="width:4em;margin-left:auto;margin-right:auto;">
                   </div>
-                   <p class="lead mb-0"><b style="font-size:1em;font-weight:bold;">45 entreprises</b> tous secteurs d'activité</p>
+                   <p class="lead mb-0"><b style="font-size:1em;font-weight:bold;">50 entreprises</b> tous secteurs d'activité</p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -183,6 +183,37 @@
                   <div>
                        <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Transport</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_Hervouet-Terres-de-Montaigu.jpg">
+
+                  </div>
+
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Vinci_Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Tronico-Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Moinard-Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_LCA-Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_Difagri-Terres-de-Montaigu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"></p>
+                       <img style="margin-top:-1em;" src="img/logos/Logo_CA-Terres-de-Montaigu.jpg">
 
                   </div>
                 </section>
