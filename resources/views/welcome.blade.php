@@ -191,12 +191,12 @@
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Construction</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_Moinard-Terres-de-Montaigu.jpg">
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Construction</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_LCA-Terres-de-Montaigu.jpg">
 
                   </div>
