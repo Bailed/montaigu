@@ -70,7 +70,7 @@
         </div>
         <div class="col-lg-12 text-center">
             <div class="form-check">
-               <input type="checkbox" class="form-check-input" name="accompagner" @if(Auth::user()->company()->accompagnement) checked @endif disabled>
+               <input type="checkbox" class="form-check-input" name="accompagner" @if(Auth::user()->company()->accompagnement) checked @endif>
                <label class="form-check-label">Je souhaite être accompagné dans la préparation du salon en participant à l'atelier Destination Emploi qui aura lieu le jeudi 28 février 2019 de 8h30 à 11h00 à Montaigu-Vendée (une invitation précise vous sera adressée par email).</label>
              </div>
              <div class="form-check">

@@ -70,6 +70,9 @@ class CompaniesController extends Controller
 
     public function updatePost(Request $request,$uid) {
 
+        if($request->input('accompagner')) {$accompagner = true;} else {$accompagner = null;}
+        if($request->input('confirmation')) {$confirmation = true;} else {$confirmation = null;}
+
         $values = array(
             "value1" => $request->input('value_1'),
             "value2" => $request->input('value_2'),
@@ -87,6 +90,8 @@ class CompaniesController extends Controller
             'contact_phone' => $request->input('contact_phone'),
             'contact_mail' => $request->input('contact_mail'),
             'activity_area' => $request->input('activity_area'),
+            'accompagnement' => $accompagner,
+            'confirmation' => $confirmation,
             'nb_jobs' => $request->input('nb_jobs'),
             'company_values' => json_encode($values)
         ]);
