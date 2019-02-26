@@ -5,7 +5,7 @@
 <div class="container-fluid" style="padding-top:3em;padding-bottom:3em;">
     <h4>Administration des entreprises et des offres</h4>
     <div class="row">
-        <div class="col-lg-8">
+        <div class="col-xs-8">
             <h5>Les entreprises</h5>
             <table class="table table-striped">
                 <thead>
@@ -39,7 +39,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="col-lg-4">
+        <div class="col-xs-4">
             <h5>Les offres</h5>
             <table class="table table-striped">
                 <thead>
