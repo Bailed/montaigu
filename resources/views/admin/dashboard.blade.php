@@ -2,10 +2,10 @@
 
 @section('content')
 
-<div class="container-fluid" style="padding-top:3em;padding-bottom:3em;">
+<div class="container" style="padding-top:3em;padding-bottom:3em;">
     <h4>Administration des entreprises ({{ count($companies) }}) et des offres ({{ count($jobs) }})</h4>
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-12">
             <h5>Les entreprises</h5>
             <table class="table table-striped">
                 <thead>
@@ -35,31 +35,6 @@
                             </td>
                         </tr>
                     @endif
-                    @endforeach
-                </tbody>
-            </table>
-        </div>
-        <div class="col-lg-6">
-            <h5>Les offres</h5>
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Entreprise</th>
-                        <th>Nom</th>
-                        <th>Description</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach($jobs as $job)
-                    <tr>
-                        <td>{{$job->company()->name}}</td>
-                        <td>{{$job->name}}</td>
-                        <td class="text-justify">{{substr($job->resume, 0, 100)}}...</td>
-                        <td class="text-center">
-                            <a href="{{route('job.edit',['uid' => $job->uid])}}"><i class="fas fa-edit"></i></a>
-                        </td>
-                    </tr>
                     @endforeach
                 </tbody>
             </table>
