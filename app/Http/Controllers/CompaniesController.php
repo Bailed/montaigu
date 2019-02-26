@@ -71,8 +71,8 @@ class CompaniesController extends Controller
 
     public function read($uid) {
         $company = Company::where('uid',$uid)->first();
-        $jobs = Job::where('company',$uid)->get();
-        return view('company.read')->with('company_uid',$company)->with('jobs',$jobs);
+        $jobs = Job::where('company_uid',$uid)->get();
+        return view('company.read')->with('company',$company)->with('jobs',$jobs);
 
     }
 
