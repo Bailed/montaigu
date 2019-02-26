@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-use App\Model\Jobs;
+use App\Model\Job;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -42,6 +42,6 @@ class Company extends Authenticatable
      */
 
      public function jobs() {
-         return Jobs::where('company_uid',$this->uid)->get();
+         return Job::where('company_uid',$this->uid)->get();
      }
 }
