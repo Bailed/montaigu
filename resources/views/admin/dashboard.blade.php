@@ -32,7 +32,8 @@
                             <td>
                                 <b>Confirmation :</b> @if($company->confirmation) Oui @else Non @endif <br>
                                 <b>Accompagnement :</b> @if($company->accompagnement) Oui @else Non @endif <br>
-                                <a href="{{route('company.read',['uid' => $company->uid])}}">Fiche</a>
+                                <a href="{{route('company.read',['uid' => $company->uid])}}">Fiche</a> <br>
+                                Nombre d'offres : {{ count($company->jobs()) }}
                             </td>
                         </tr>
                     @endif
