@@ -16,20 +16,20 @@
             <h4>L'entreprise</h4>
                 <div class="form-group">
                   <label>Nom de l'entreprise* <small>(obligatoire)</small></label>
-                  <input type="text" class="form-control" name="name" value="{{$company->name}}" disabled>
+                  <input disabled type="text" class="form-control" name="name" value="{{$company->name}}">
                 </div>
                 <div class="form-group">
                   <label>Adresse</label>
-                  <input type="text" class="form-control" name="address" value="{{$company->address}}">
+                  <input disabled type="text" class="form-control" name="address" value="{{$company->address}}">
                 </div>
                 <div class="row">
                     <div class="form-group col-lg-6">
                       <label>Code postal</label>
-                      <input type="text" class="form-control" name="zip" value="{{$company->zip}}">
+                      <input disabled type="text" class="form-control" name="zip" value="{{$company->zip}}">
                     </div>
                     <div class="form-group col-lg-6">
                       <label>Ville</label>
-                      <input type="text" class="form-control" name="town" value="{{$company->town}}">
+                      <input disabled type="text" class="form-control" name="town" value="{{$company->town}}">
                     </div>
                 </div>
                 <div class="form-group">
@@ -46,35 +46,35 @@
                 </div>
                 <div class="form-group">
                   <label>Nombre de poste(s) à pourvoir dans l'entreprise dans l'année</label>
-                  <input type="number" class="form-control" name="nb_jobs" min="0"  value="{{$company->nb_jobs}}">
+                  <input disabled type="number" class="form-control" name="nb_jobs" min="0"  value="{{$company->nb_jobs}}">
                 </div>
         </div>
         <div class="col-lg-6">
             <h4>Contact principal de l'entreprise</h4>
             <div class="form-group">
               <label>Prénom</label>
-              <input type="text" class="form-control" name="contact_first_name"  value="{{$company->contact_first_name}}">
+              <input disabled type="text" class="form-control" name="contact_first_name"  value="{{$company->contact_first_name}}">
             </div>
             <div class="form-group">
               <label>Nom</label>
-              <input type="text" class="form-control" name="contact_last_name"  value="{{$company->contact_last_name}}">
+              <input disabled type="text" class="form-control" name="contact_last_name"  value="{{$company->contact_last_name}}">
             </div>
             <div class="form-group">
               <label>Qualité</label>
-              <input type="text" class="form-control" name="contact_status"  value="{{$company->contact_status}}">
+              <input disabled type="text" class="form-control" name="contact_status"  value="{{$company->contact_status}}">
             </div>
             <div class="form-group">
               <label>Téléphone</label>
-              <input type="text" class="form-control" name="contact_phone"  value="{{$company->contact_phone}}">
+              <input disabled type="text" class="form-control" name="contact_phone"  value="{{$company->contact_phone}}">
             </div>
         </div>
         <div class="col-lg-12 text-center">
             <div class="form-check">
-               <input type="checkbox" class="form-check-input" name="accompagner" @if($company->accompagnement) checked @endif>
+               <input disabled type="checkbox" class="form-check-input" name="accompagner" @if($company->accompagnement) checked @endif>
                <label class="form-check-label">Je souhaite être accompagné dans la préparation du salon en participant à l'atelier Destination Emploi qui aura lieu le jeudi 28 février 2019 de 8h30 à 11h00 à Montaigu-Vendée (une invitation précise vous sera adressée par email).</label>
              </div>
              <div class="form-check">
-                <input type="checkbox" class="form-check-input" name="confirmation" @if($company->confirmation) checked @endif disabled>
+                <input disabled type="checkbox" class="form-check-input" name="confirmation" @if($company->confirmation) checked @endif>
                 <label class="form-check-label">Je confirme ma participation au salon Destination Emploi le vendredi 29 mars 2019 et m'engage à régler une participation de 300€ net de taxe à Terres de Montaigu sur facture.
                 </label>
               </div>
@@ -87,23 +87,23 @@
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 1</label>
-                  <input type="text" class="form-control" name="value_1" @if($company_values->value1) value='{{ $company_values->value1 }}' @endif>
+                  <input disabled type="text" class="form-control" name="value_1" @if($company_values->value1) value='{{ $company_values->value1 }}' @endif>
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 2</label>
-                  <input type="text" class="form-control" name="value_2" @if($company_values->value2) value="{{ $company_values->value2}}" @endif>
+                  <input disabled type="text" class="form-control" name="value_2" @if($company_values->value2) value="{{ $company_values->value2}}" @endif>
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 3</label>
-                  <input type="text" class="form-control" name="value_3" @if($company_values->value3) value="{{ $company_values->value3}}" @endif>
+                  <input disabled type="text" class="form-control" name="value_3" @if($company_values->value3) value="{{ $company_values->value3}}" @endif>
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 4</label>
-                  <input type="text" class="form-control" name="value_4" @if($company_values->value4) value="{{ $company_values->value4}}" @endif>
+                  <input disabled type="text" class="form-control" name="value_4" @if($company_values->value4) value="{{ $company_values->value4}}" @endif>
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 5</label>
-                  <input type="text" class="form-control" name="value_5" @if($company_values->value5) value="{{ $company_values->value5}}" @endif>
+                  <input disabled type="text" class="form-control" name="value_5" @if($company_values->value5) value="{{ $company_values->value5}}" @endif>
                 </div>
             </div>
         </div>
