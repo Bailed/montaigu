@@ -21,7 +21,7 @@
                     @foreach($companies as $company)
                     @if($company->uid != "administration")
                         <tr>
-                            <td><a href="{{route('company.read', ['uid' => $company->uid])}}">{{$company->name}}</a></td>
+                            <td><a href="{{route('company.read',['uid' => $company->uid])}}">{{$company->name}}</a></td>
                             <td>{{$company->contact_mail}}</td>
                             <td>{{$company->address}} <br> {{$company->zip}} {{$company->town}}</td>
                             <td>
@@ -32,7 +32,7 @@
                             <td>
                                 <b>Confirmation :</b> @if($company->confirmation) Oui @else Non @endif <br>
                                 <b>Accompagnement :</b> @if($company->accompagnement) Oui @else Non @endif <br>
-                                <a href="{{route('company.read', ['uid' => $company->uid])}}">Voir la fiche de l'entreprise</a>
+                                <a href="{{route('company.read',['uid' => $company->uid])}}">Fiche</a>
                             </td>
                         </tr>
                     @endif

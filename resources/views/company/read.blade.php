@@ -111,7 +111,29 @@
             </div>
         </div>
         <div class="col-lg-12 text-center">
-            <button type="submit" class="btn btn-primary">Modifier</button>
+                <h5>Les offres</h5>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Entreprise</th>
+                            <th>Nom</th>
+                            <th>Description</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach($jobs as $job)
+                        <tr>
+                            <td>{{$job->company()->name}}</td>
+                            <td>{{$job->name}}</td>
+                            <td class="text-justify">{{substr($job->resume, 0, 100)}}...</td>
+                            <td class="text-center">
+                                <a href="{{route('job.edit',['uid' => $job->uid])}}"><i class="fas fa-edit"></i></a>
+                            </td>
+                        </tr>
+                        @endforeach
+                    </tbody>
+                </table>
         </div>
     </div>
     </form>
