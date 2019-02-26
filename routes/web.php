@@ -27,7 +27,7 @@ Route::group(['middleware' => 'auth'], function() {
     Route::post('job/{uid}', 'JobsController@update')->name('job.edit.post');
     Route::get('job/{uid}/delete', 'JobsController@delete')->name('job.delete');
 
-    Route::get('company/{uid}/read', 'CompanyController@read')->name('company.read');
+    Route::get('company/{uid}/read', 'CompaniesController@read')->name('company.read');
 });
 
 // Companies Routes...

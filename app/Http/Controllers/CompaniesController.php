@@ -68,6 +68,11 @@ class CompaniesController extends Controller
         return view('company.update');
     }
 
+    public function read($uid) {
+        $company = Company::where('uid',$uid)->first();
+        return view('company.read')->with('company',$company);
+    }
+
     public function updatePost(Request $request,$uid) {
 
         if($request->input('accompagner')) {$accompagner = true;} else {$accompagner = null;}
