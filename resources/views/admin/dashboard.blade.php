@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container-fluid" style="padding-top:3em;padding-bottom:3em;">
-    <h4>Administration des entreprises et des offres</h4>
+    <h4>Administration des entreprises et des offres ({{ count($jobs) }})</h4>
     <div class="row">
         <div class="col-lg-6">
             <h5>Les entreprises</h5>
