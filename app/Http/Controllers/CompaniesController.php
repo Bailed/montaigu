@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Model\Company;
+use App\Model\Job;
 use Uuid;
 use App\User;
 use App\Http\Controllers\Controller;
@@ -70,7 +71,9 @@ class CompaniesController extends Controller
 
     public function read($uid) {
         $company = Company::where('uid',$uid)->first();
-        return view('company.read')->with('company',$company);
+        $jobs = Job::where('company',$uid)->get();
+        return view('company.read')->with('company',$company)->with('jobs',$jobs);
+
     }
 
     public function updatePost(Request $request,$uid) {
