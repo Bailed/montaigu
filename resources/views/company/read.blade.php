@@ -68,16 +68,19 @@
               <input disabled type="text" class="form-control" name="contact_phone"  value="{{$company->contact_phone}}">
             </div>
         </div>
-        <div class="col-lg-12 text-center">
-            <div class="form-check">
-               <input disabled type="checkbox" class="form-check-input" name="accompagner" @if($company->accompagnement) checked @endif>
-               <label class="form-check-label">Je souhaite être accompagné dans la préparation du salon en participant à l'atelier Destination Emploi qui aura lieu le jeudi 28 février 2019 de 8h30 à 11h00 à Montaigu-Vendée (une invitation précise vous sera adressée par email).</label>
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <div class="form-check">
+                   <input disabled type="checkbox" class="form-check-input" name="accompagner" @if($company->accompagnement) checked @endif>
+                   <label class="form-check-label">Accompagnement</label>
+                 </div>
              </div>
-             <div class="form-check">
-                <input disabled type="checkbox" class="form-check-input" name="confirmation" @if($company->confirmation) checked @endif>
-                <label class="form-check-label">Je confirme ma participation au salon Destination Emploi le vendredi 29 mars 2019 et m'engage à régler une participation de 300€ net de taxe à Terres de Montaigu sur facture.
-                </label>
-              </div>
+             <div class="col-lg-6 text-center">
+                 <div class="form-check">
+                    <input disabled type="checkbox" class="form-check-input" name="confirmation" @if($company->confirmation) checked @endif>
+                    <label class="form-check-label">Confirmation</label>
+                  </div>
+            </div>
         </div>
         <div class="col-lg-12 text-center"><br>
             <h4>Les 5 valeurs de l'entreprise</h4><br>
