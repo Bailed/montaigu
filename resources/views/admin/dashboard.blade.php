@@ -31,7 +31,8 @@
                             </td>
                             <td>
                                 <b>Confirmation :</b> @if($company->confirmation) Oui @else Non @endif <br>
-                                <b>Accompagnement :</b> @if($company->accompagnement) Oui @else Non @endif
+                                <b>Accompagnement :</b> @if($company->accompagnement) Oui @else Non @endif <br>
+                                <b><a href="{{route('company.read', ['uid' => $company->uid])}}">Voir la fiche de l'entreprise</a></b>
                             </td>
                         </tr>
                     @endif
