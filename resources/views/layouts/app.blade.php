@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="SUKD6oVksoHbhr7eI4b5T0Uy9amFVBXM2qHalHdE2Mw" />
 
-        <title>Gestion - Salon de l'emploi - Montaigu</title>
+        <title>Salon de l'emploi | Terres de Montaigu - Communauté de communes</title>
 
         <!-- Fonts -->
         <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -178,7 +178,7 @@
                             <h5 class="first_letter">Accès</h5>
                         </div>
                         <div class="row">
-                            <p style="text-justify;width:80%;margin-left:auto;margin-right:auto;">A 10 minutes à pieds de la gare SNCF TER Montaigu-Vendée, accessible depuis Nantes et La Roche-sur-Yon
+                            <p style="text-justify;width:80%;margin-left:auto;margin-right:auto;">A 10 minutes à pied de la gare SNCF TER Montaigu-Vendée, accessible depuis Nantes et La Roche-sur-Yon
                             </p>
                         </div>
                     </div>

@@ -142,10 +142,6 @@
                     <img style="margin-top:-1em;" src="img/logos/Logo_CHD-Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                      <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Commerce</p>
-                    <img style="margin-top:-1em;" src="img/logos/Logo_super-u-Terres-de-Montaigu.jpg">
-                  </div>
-                  <div style="text-align:center;display:table-cell;vertical-align: middle;">
                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Industrie</p>
                     <img style="margin-top:-1em;" src="img/logos/Logo_Gebe-Terres-de-Montaigu.jpg">
                   </div>
@@ -208,6 +204,73 @@
                   <div>
                        <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Banque</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_CA-Terres-de-Montaigu.jpg">
+
+                  </div>
+
+
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-conseil-securite-formation.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Logistique</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-coveto.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Transport</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-db-schenker.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-Edycem.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-flexance.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Industrie</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-haworth.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Industrie</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-heraud.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-jussieu.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Logistique</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-sofinther.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Industrice</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-sermiexia.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agricole</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-orvia.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Logistique</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-orcab.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Industrie</p>
+                       <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-mc-france.jpg">
 
                   </div>
                 </section>
