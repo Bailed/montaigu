@@ -341,7 +341,7 @@
                 <p class="lead mb-0" style="color:#2C2D78;padding-left:1.5em;text-align:justify;">Donnez de la visibilité à vos offres d’emploi et venez à la rencontre des candidats du territoire et d’ailleurs. Bénéficiez d’un espace dédié sur le salon et de nos conseils pour faire valoir les atouts de votre entreprise et trouver les candidats les plus motivés et performants. Inscrivez-vous dès maintenant directement en ligne, pour participer à la journée Destination Emploi.</h2>
                     <div class="row" style="margin-top:5em;color:#E5007D">
                         <div class="col-md-12 text-center">
-                            <h5 style="font-weight:bold;">COMPLET</h5>
+                            <h5 style="font-weight:bold;">[COMPLET]</h5>
                         </div>
                     </div>
             </div>
