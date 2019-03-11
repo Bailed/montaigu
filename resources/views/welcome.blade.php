@@ -288,7 +288,12 @@
         <section class="showcase">
           <div class="container-fluid p-0">
             <div class="row no-gutters">
-              <div class="col-lg-6 text-white showcase-img" style="background: url('img/stock_thumb_destination.jpeg') no-repeat;background-size:cover;"></div>
+              <div class="col-lg-6 text-white">
+                  <video style="width:100%">
+                      <source src="video.mp4" type="video/destination_emploi.mp4" />
+                      Votre navigateur ne supporte pas les vidéos html5.
+                  </video>
+              </div>
               <div class="col-lg-6 showcase-text showcase-text-special">
                 <h2 class="first_letter" style="color:#2C2D78"> Destination Emploi : une journée pour trouver un emploi et bien plus encore.</h2>
                 <p class="lead mb-0" style="padding-left:1.5em;color:#2C2D78">Destination Emploi, c’est la journée incontournable de l’emploi en Terres de Montaigu. Que vous soyez à la recherche d’un emploi, étudiant, en reconversion ou simplement à l’écoute de nouvelles opportunités, vous y trouverez de nombreuses offres d’emploi disponibles immédiatement ainsi que toutes les informations sur la formation professionnelle et la reconversion.</h2>
@@ -341,7 +346,7 @@
                 <p class="lead mb-0" style="color:#2C2D78;padding-left:1.5em;text-align:justify;">Donnez de la visibilité à vos offres d’emploi et venez à la rencontre des candidats du territoire et d’ailleurs. Bénéficiez d’un espace dédié sur le salon et de nos conseils pour faire valoir les atouts de votre entreprise et trouver les candidats les plus motivés et performants. Inscrivez-vous dès maintenant directement en ligne, pour participer à la journée Destination Emploi.</h2>
                     <div class="row" style="margin-top:5em;color:#E5007D">
                         <div class="col-md-12 text-center">
-                            <h5 style="font-weight:bold;">[COMPLET]</h5>
+                            <h5 style="font-weight:bold;font-size:3em;">[COMPLET]</h5>
                         </div>
                     </div>
             </div>

@@ -36,6 +36,11 @@
                                 Nombre d'offres : {{ count($company->jobs()) }}
                             </td>
                         </tr>
+                        <tr></tr>
+                        <tr>
+                            <?php $company_values = json_decode($company->company_values); ?>
+                            <td colspan="5">Valeurs : @foreach($company_values as $value) {{$value}} @endforeach</td>
+                        </tr>
                     @endif
                     @endforeach
                 </tbody>
