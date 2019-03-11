@@ -290,7 +290,7 @@
             <div class="row no-gutters">
               <div class="col-lg-6 text-white">
                   <video style="width:100%">
-                      <source src="video.mp4" type="video/destination_emploi.mp4" />
+                      <source src="video.mp4" type="videos/destination_emploi.mp4" />
                       Votre navigateur ne supporte pas les vidéos html5.
                   </video>
               </div>
