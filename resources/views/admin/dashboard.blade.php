@@ -39,7 +39,7 @@
                         <tr></tr>
                         <tr>
                             <?php $company_values = json_decode($company->company_values); ?>
-                            <td colspan="5">Valeurs :@if($company_values) @foreach($company_values as $value) | {{$value}} | @endforeach @endif</td>
+                            @if($company_values)<td colspan="5">Valeurs : @foreach($company_values as $value) | {{$value}} | @endforeach </td>@endif
                         </tr>
                     @endif
                     @endforeach
