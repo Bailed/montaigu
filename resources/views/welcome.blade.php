@@ -147,7 +147,7 @@
                   </div>
                   <div>
                        <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
-                       <img style="margin-top:-1em;" src="img/logos/Logo_Fonteneau-Terres-de-Montaigu.jpg">
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-BF_agroalimentaire.png">
 
                   </div>
                   <div>
@@ -271,6 +271,98 @@
                   <div>
                        <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Industrie</p>
                        <img style="margin-top:-1em;" src="img/logos/destination-emploi-montaigu-mc-france.jpg">
+
+                  </div>
+
+
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-ADMR_SERVICE-A-LA-PERSONNE.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Metallurgie</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-amtec_METALLURGIE.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-arbora_BATIMENT.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-bonte_AGROALIMENTAIRE.png">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-College-Villebois_SERVICE-A-LA-PERSONNE.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Industrie</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-CONCEPT-ET-FABRICATION_INDUSTRIE.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-cotefentres_BATIMENT.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Commerce</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-e.leclerc_COMMERCE.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-Eiffage_BATIMENT.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Métallurgie</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-EUROPLACER_METALLURGIE.png">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-Familles-Rurales-LogoFR_SERVICE-A-LA-PERSONNE.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-VAM_SERVICE-A-LA-PERSONNE.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Bâtiment</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-lvi_BATIMENT.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-MGEN_SERVICE-A-LA-PERSONNE.png">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-O2_SERVICE-A-LA-PERSONNE.png">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Industrie</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-sphinx_INDUSTRIE.jpeg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-TDM_SERVICE-A-LA-PERSONNE.jpg">
+
+                  </div>
+                  <div>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Métallurgie</p>
+                       <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-unista_METALLURGIE.jpg">
 
                   </div>
                 </section>
