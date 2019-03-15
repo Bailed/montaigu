@@ -278,7 +278,7 @@
 
 
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;">Service à la personne</p>
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-ADMR_SERVICE-A-LA-PERSONNE.jpg">
 
                   </div>
@@ -298,7 +298,7 @@
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;">Service à la personne</p>
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-College-Villebois_SERVICE-A-LA-PERSONNE.jpg">
 
                   </div>
@@ -328,12 +328,12 @@
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;">Service à la personne</p>
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-Familles-Rurales-LogoFR_SERVICE-A-LA-PERSONNE.jpg">
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;">Service à la personne</p>
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-VAM_SERVICE-A-LA-PERSONNE.jpg">
 
                   </div>
@@ -343,12 +343,12 @@
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;">Service à la personne</p>
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-MGEN_SERVICE-A-LA-PERSONNE.png">
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;">Service à la personne</p>
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-O2_SERVICE-A-LA-PERSONNE.png">
 
                   </div>
@@ -358,7 +358,7 @@
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Service à la personne</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;">Service à la personne</p>
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-TDM_SERVICE-A-LA-PERSONNE.jpg">
 
                   </div>
