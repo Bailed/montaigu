@@ -2,7 +2,7 @@
 @section('content')
 <style media="screen">
 
-.slick-dots {display:none;}
+.slick-dots {display:none !important;}
 
 #demo {
     position:relative;width:200px;height:40px;text-align:center;margin-top:-12em;right:20%;float:right;background: url('img/date.svg') no-repeat;font-weight:bold;
