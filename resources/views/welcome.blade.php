@@ -289,10 +289,9 @@
           <div class="container-fluid p-0">
             <div class="row no-gutters">
               <div class="col-lg-6 text-white">
-                  <video style="width:100%" id="video">
-                      <source type="video/mp4" src="videos/destination_emploi.mp4" />
-                      Votre navigateur ne supporte pas les vidéos html5.
-                  </video>
+                  <div class="embed-responsive embed-responsive-16by9" style="width:100%;height:100%;">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m8Dtv_9oiFQ" allowfullscreen></iframe>
+                    </div>
               </div>
               <div class="col-lg-6 showcase-text showcase-text-special">
                 <h2 class="first_letter" style="color:#2C2D78"> Destination Emploi : une journée pour trouver un emploi et bien plus encore.</h2>
