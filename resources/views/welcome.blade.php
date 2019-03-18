@@ -430,29 +430,6 @@
             </div>
           </div>
         </section>
-        <section class="showcase" style="width:90%;margin-left:5%;background-color:white;background: url('../img/demi-cercle2.svg') no-repeat;background-position: right top;background-size:150px;">
-          <div class="container-fluid p-0">
-            <div class="row no-gutters">
-              <div class="col-lg-8 showcase-text showcase-text-special">
-                <h2 class="first_letter" style="color:#2C2D78"> Votre entreprise recrute et vous n'êtes pas encore inscrits ?<br>
-                <br><span style="text-shadow: 1px 1px 2px #12B7C0;"><span style="font-weight:300;">Ici, trouvez vos</span> futurs collaborateurs.</span></h2>
-                <p class="lead mb-0" style="color:#2C2D78;padding-left:1.5em;text-align:justify;">Donnez de la visibilité à vos offres d’emploi et venez à la rencontre des candidats du territoire et d’ailleurs. Bénéficiez d’un espace dédié sur le salon et de nos conseils pour faire valoir les atouts de votre entreprise et trouver les candidats les plus motivés et performants. Inscrivez-vous dès maintenant directement en ligne, pour participer à la journée Destination Emploi.</h2>
-                    <div class="row" style="margin-top:5em;color:#E5007D">
-                        <div class="col-md-12 text-center">
-                            <h5 style="font-weight:bold;font-size:3em;">[COMPLET]</h5>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-lg-4 showcase-img">
-                <div class="testimonial" style="margin-top:20%;width:80%;margin-left:10%;">
-                    <img src="img/guillemets.svg" alt="" width="50">
-                    <p style="color:#2C2D78;font-weight:bold"><i>Nous avons des difficultés à recruter deux profils en tension (charpentier bois et opérateur commande numérique). Nous participons au salon pour rencontrer des profils sur ces deux emplois mais également faire connaître nos métiers et notre société à travers son environnement, son ambiance et ses locaux par exemple.</i></p>
-                    <p style="color:#2C2D78"><i>Karine Bouhier, Les Charpentiers de l’Atlantique</i></p>
-                </div>
-            </div>
-          </div>
-        </section>
-
         <section class="showcase" style="background-color:#FA007E;">
           <div class="container-fluid p-0">
             <div class="row no-gutters">
