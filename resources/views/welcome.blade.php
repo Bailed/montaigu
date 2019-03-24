@@ -440,14 +440,13 @@
                     <section class="center slider">
                         @foreach($jobs as $job)
                         <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                             <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">
-                                @if($job->company()->activity_area == "industry")Industrie
-                                @elseif($job->company()->activity_area == "bat")Construction, Travaux publics
-                                @elseif($job->company()->activity_area == "b2c")Service aux particuliers
-                                @elseif($job->company()->activity_area == "b2b")Service aux entreprises
-                                @elseif($job->company()->activity_area == "commerce")Commerce de détails
-                                @elseif($job->company()->activity_area == "transport")Transport et Logistique
-                                @elseif($job->company()->activity_area == "hotel")Hôtellerie et Restauration
+                                @if($job->company()->activity_area == "industry")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"> Industrie
+                                @elseif($job->company()->activity_area == "bat")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Construction, Travaux publics
+                                @elseif($job->company()->activity_area == "b2c")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Service aux particuliers
+                                @elseif($job->company()->activity_area == "b2b")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Service aux entreprises
+                                @elseif($job->company()->activity_area == "commerce")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Commerce de détails
+                                @elseif($job->company()->activity_area == "transport")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Transport et Logistique
+                                @elseif($job->company()->activity_area == "hotel")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Hôtellerie et Restauration
                                 @endif
                             </p>
                             @if($job->img_url)
