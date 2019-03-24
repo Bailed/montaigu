@@ -430,6 +430,39 @@
             </div>
           </div>
         </section>
+
+        <section class="testimonials text-center" style="background-color:#31328A;color:white;">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mb-5 first_letter" style="margin-left:auto;margin-right:auto;">Toutes les offres d'emploi.</h2>
+                </div>
+                <div class="row">
+                    <section class="center slider">
+                        @foreach($jobs as $job)
+                        <div style="text-align:center;display:table-cell;vertical-align: middle;">
+                             <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">
+                                @if($job->company()->activity_area == "industry")Industrie
+                                @elseif($job->company()->activity_area == "bat")Construction, Travaux publics
+                                @elseif($job->company()->activity_area == "b2c")Service aux particuliers
+                                @elseif($job->company()->activity_area == "b2b")Service aux entreprises
+                                @elseif($job->company()->activity_area == "commerce")Commerce de détails
+                                @elseif($job->company()->activity_area == "transport")Transport et Logistique
+                                @elseif($job->company()->activity_area == "hotel")Hôtellerie et Restauration
+                                @endif
+                            </p>
+                            @if($job->img_url)
+                            <img src="{{$job->img_url}}" style="height:100px;margin-top:-1em;padding-bottom:1em;" alt="">
+                            @else
+                            <img src="img/programme-fond.png" style="height:100px;margin-top:-1em;padding-bottom:1em;" alt="">
+                            @endif
+                            <p style="text-align:center;">{{$job->name}}</p>
+                        </div>
+                        @endforeach
+                    </section>
+                </div>
+            </section>
+
+
         <section class="showcase" style="background-color:#FA007E;">
           <div class="container-fluid p-0">
             <div class="row no-gutters">

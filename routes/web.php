@@ -14,9 +14,7 @@
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/home', 'JobsController@add')->name('job.add');
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Controller@index')->name('index');
 
 Route::group(['middleware' => 'auth'], function() {
     Route::get('mise-a-jour-entreprise','CompaniesController@update')->name('company.update');
