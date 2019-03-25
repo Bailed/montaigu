@@ -450,7 +450,7 @@
                                 @endif
                             </p>
                             @if($job->company()->logo)
-                            <img src="img/logos/{{$job->company()->logo}}" style="height:100px;margin-top:-1em;padding-bottom:1em;" alt="">
+                            <img src="img/logos/{{$job->company()->logo}}" style="margin-top:-1em;padding-bottom:1em;" alt="">
                             @else
                             <img src="img/programme-fond.png" style="height:100px;margin-top:-1em;padding-bottom:1em;" alt="">
                             @endif
