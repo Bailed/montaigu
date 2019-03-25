@@ -449,8 +449,8 @@
                                 @elseif($job->company()->activity_area == "hotel")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Hôtellerie et Restauration
                                 @endif
                             </p>
-                            @if($job->img_url)
-                            <img src="{{$job->img_url}}" style="height:100px;margin-top:-1em;padding-bottom:1em;" alt="">
+                            @if($job->company()->logo)
+                            <img src="img/logo/{{$job->company()->logo}}" style="height:100px;margin-top:-1em;padding-bottom:1em;" alt="">
                             @else
                             <img src="img/programme-fond.png" style="height:100px;margin-top:-1em;padding-bottom:1em;" alt="">
                             @endif
@@ -481,7 +481,6 @@
             </div>
           </div>
         </section>
-        <!--
         <section class="testimonials text-center" style="background: url('img/programme-fond.png')">
           <div class="container">
               <div class="row">
@@ -495,40 +494,48 @@
             <div class="row">
                 <div class="col-lg-2 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;">
-                        <p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">09:00</p>
+                        <p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">09:15</p>
                     </div>
-                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Titre de l’évènement</b>
-                        <br>Sous-titre au besoin ici et là</p>
+                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Je valorise mes atouts pour être recruté autrement</b>
+                        <br>Mission Locale, Cap Emploi, Pôle Emploi
+Avec le témoignage de l’entreprise FM LOGISTIC (Logistique) et
+d’un salarié de STBM (Métallurgie)</p>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">10:00</p></div>
-                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Titre de l’évènement</b>
-                        <br>Sous-titre au besoin ici et là</p>
+                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">10:30</p></div>
+                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Découvrir, les métiers du Transport de voyageurs</b>
+                        <br>Fédération Nationale du Transport de Voyageurs Pays de la Loire</p>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">12:00</p></div>
-                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Titre de l’évènement</b>
-                        <br>Sous-titre au besoin ici et là</p>
+                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">11:30</p></div>
+                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Les métiers de la construction et de l’aménagement recrutent tout au long de la vie</b>
+                        <br>Fédération Française du Bâtiment, GEIQ BTP, CFA BTP, AFPIA
+Avec le témoignage de l’entreprise Spide Chauveau (Peinture)</p>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">14:30</p></div>
-                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Titre de l’évènement</b>
-                        <br>Sous-titre au besoin ici et là</p>
+                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">12:30</p></div>
+                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Casser avec les idées reçues sur l’intérim</b>
+                        <br>Les Agences d’emploi</p>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">09:00</p></div>
-                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Titre de l’évènement</b>
-                        <br>Sous-titre au besoin ici et là</p>
+                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">14:00</p></div>
+                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Je me mets à la place du recruteur</b>
+                        <br>Maison Départementale de l’Emploi et du Développement
+Economique
+Avec le témoignage des entreprises LCA Construction Bois
+(Construction et Aménagement), Difagri (Alimentation
+animale), la Laiterie de Montaigu (Alimentation)</p>
                 </div>
                 <div class="col-lg-2 text-center">
-                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">09:00</p></div>
-                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Titre de l’évènement</b>
-                        <br>Sous-titre au besoin ici et là</p>
+                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">15:15</p></div>
+                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Changer de regard sur un secteur innovant : la
+métallurgie</b>
+                        <br>Union Industrie Métallurgie Vendée
+Avec le témoignage de l’entreprise NOVATICS (Robotique)</p>
                 </div>
             </div>
           </div>
         </section>
-    -->
         <section class="testimonials text-center" style="background-color:#F6F6F6;color:#31328A;">
           <div class="container">
               <div class="row">
