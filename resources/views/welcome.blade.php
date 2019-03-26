@@ -367,6 +367,17 @@
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-unista_METALLURGIE.jpg">
 
                   </div>
+
+                  <div>
+                      <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/logo-pitchounes-destination-emploi-terres-de-montaigu.jpg">
+
+                  </div>
+                  <div>
+                      <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;">Service à la personne</p>
+                       <img style="margin-top:-1em;" src="img/logos/logo-graine-de-malice-destination-emploi-terres-de-montaigu.jpg">
+
+                  </div>
                 </section>
             <!--
             <div class="row" style="margin-top:5em;color:#E5007D">
@@ -467,7 +478,7 @@
             <div class="row no-gutters">
               <div class="col-lg-8 showcase-text">
                   <div style="" class="new_place">
-                      <h2 class="first_letter" style="color:white;">Nouveau lieu, nouveau format, nouvelle destination pour l’emploi</h2>
+                      <h2 class="first_letter" style="color:white;">Entrée libre</h2>
                       <p class="lead mb-0" style="color:white;padding-left:1.5em;">Chaque année depuis 7 ans, Pôle Emploi organise les rendez-vous de l’emploi afin de répondre au dynamisme croissant des entreprises et à leurs besoins en recrutement.
                           <br><br>
                           Cette année, Terres de Montaigu s’associe à Pôle Emploi pour répondre aux besoins toujours plus importants des entreprises. Les rendez-vous de l'emploi deviennent Destination Emploi, une journée entièrement dédiée à l'emploi sur plus de 1 800 m2.</h2>
@@ -481,7 +492,7 @@
             </div>
           </div>
         </section>
-        <section class="testimonials text-center" style="background: url('img/programme-fond.png')">
+        <section class="testimonials text-center" style="background: url('img/programme-fond.png') no-repeat;background-size:cover">
           <div class="container">
               <div class="row">
                   <h2 class="first_letter" style="margin-left:auto;margin-right:auto;color:white">Programme et organisation du salon</h2>
@@ -492,7 +503,7 @@
                   </div>
             </div>
             <div class="row">
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-3 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;">
                         <p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">09:15</p>
                     </div>
@@ -501,23 +512,24 @@
 Avec le témoignage de l’entreprise FM LOGISTIC (Logistique) et
 d’un salarié de STBM (Métallurgie)</p>
                 </div>
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-3 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">10:30</p></div>
                     <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Découvrir, les métiers du Transport de voyageurs</b>
                         <br>Fédération Nationale du Transport de Voyageurs Pays de la Loire</p>
                 </div>
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-3 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">11:30</p></div>
                     <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Les métiers de la construction et de l’aménagement recrutent tout au long de la vie</b>
                         <br>Fédération Française du Bâtiment, GEIQ BTP, CFA BTP, AFPIA
 Avec le témoignage de l’entreprise Spide Chauveau (Peinture)</p>
                 </div>
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-3 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">12:30</p></div>
                     <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Casser avec les idées reçues sur l’intérim</b>
                         <br>Les Agences d’emploi</p>
                 </div>
-                <div class="col-lg-2 text-center">
+                
+                <div class="col-lg-4 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">14:00</p></div>
                     <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Je me mets à la place du recruteur</b>
                         <br>Maison Départementale de l’Emploi et du Développement
@@ -526,12 +538,19 @@ Avec le témoignage des entreprises LCA Construction Bois
 (Construction et Aménagement), Difagri (Alimentation
 animale), la Laiterie de Montaigu (Alimentation)</p>
                 </div>
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-4 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">15:15</p></div>
                     <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Changer de regard sur un secteur innovant : la
 métallurgie</b>
                         <br>Union Industrie Métallurgie Vendée
 Avec le témoignage de l’entreprise NOVATICS (Robotique)</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">17:30</p></div>
+                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Un parcours réussi dans les métiers de l'alimentaire</b>
+                        <br>LIGERIAA
+Avec le témoignage de la Laiterie de Montaigu, de Sodebo
+et d’un salarié de Briogel</p>
                 </div>
             </div>
           </div>
