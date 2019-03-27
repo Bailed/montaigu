@@ -549,8 +549,7 @@ Avec le témoignage de l’entreprise NOVATICS (Robotique)</p>
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">17:30</p></div>
                     <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Un parcours réussi dans les métiers de l'alimentaire</b>
                         <br>LIGERIAA
-Avec le témoignage de la Laiterie de Montaigu, de Sodebo
-et d’un salarié de Briogel</p>
+Avec le témoignage de la Laiterie de Montaigu, de Sodebo</p>
                 </div>
             </div>
           </div>
