@@ -188,7 +188,7 @@
                             <h5 class="first_letter">Accès</h5>
                         </div>
                         <div class="row">
-                            <p style="text-justify;width:80%;margin-left:auto;margin-right:auto;">Entrée libre et gratuite A 10 minutes à pied de la gare SNCF TER Montaigu-Vendée, accessible depuis Nantes et La Roche-sur-Yon
+                            <p style="text-justify;width:80%;margin-left:auto;margin-right:auto;">Entrée libre et gratuite. A 10 minutes à pied de la gare SNCF TER Montaigu-Vendée, accessible depuis Nantes et La Roche-sur-Yon
                             </p>
                         </div>
                     </div>

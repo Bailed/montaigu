@@ -479,7 +479,7 @@
               <div class="col-lg-8 showcase-text">
                   <div style="" class="new_place">
                       <h2 class="first_letter" style="color:white;">Nouveau lieu, nouveau format, nouvelle destination pour l'emploi
-                      <br>Entrée libre et gratuite</h2>
+                      <br><br>Entrée libre et gratuite</h2>
                       <p class="lead mb-0" style="color:white;padding-left:1.5em;">Chaque année depuis 7 ans, Pôle Emploi organise les rendez-vous de l’emploi afin de répondre au dynamisme croissant des entreprises et à leurs besoins en recrutement.
                           <br><br>
                           Cette année, Terres de Montaigu s’associe à Pôle Emploi pour répondre aux besoins toujours plus importants des entreprises. Les rendez-vous de l'emploi deviennent Destination Emploi, une journée entièrement dédiée à l'emploi sur plus de 1 800 m2.</h2>
