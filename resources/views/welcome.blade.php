@@ -478,7 +478,8 @@
             <div class="row no-gutters">
               <div class="col-lg-8 showcase-text">
                   <div style="" class="new_place">
-                      <h2 class="first_letter" style="color:white;">Entrée libre</h2>
+                      <h2 class="first_letter" style="color:white;">Nouveau lieu, nouveau format, nouvelle destination pour l'emploi
+                      <br>Entrée libre et gratuite</h2>
                       <p class="lead mb-0" style="color:white;padding-left:1.5em;">Chaque année depuis 7 ans, Pôle Emploi organise les rendez-vous de l’emploi afin de répondre au dynamisme croissant des entreprises et à leurs besoins en recrutement.
                           <br><br>
                           Cette année, Terres de Montaigu s’associe à Pôle Emploi pour répondre aux besoins toujours plus importants des entreprises. Les rendez-vous de l'emploi deviennent Destination Emploi, une journée entièrement dédiée à l'emploi sur plus de 1 800 m2.</h2>
@@ -528,7 +529,6 @@ Avec le témoignage de l’entreprise Spide Chauveau (Peinture)</p>
                     <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Casser avec les idées reçues sur l’intérim</b>
                         <br>Les Agences d’emploi</p>
                 </div>
-                
                 <div class="col-lg-4 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">14:00</p></div>
                     <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Je me mets à la place du recruteur</b>
