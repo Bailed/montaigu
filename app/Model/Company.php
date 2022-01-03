@@ -22,6 +22,7 @@ class Company extends Authenticatable
         'address',
         'zip',
         'town',
+        'siren',
         'contact_first_name',
         'contact_last_name',
         'contact_status',

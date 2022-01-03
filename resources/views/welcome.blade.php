@@ -5,7 +5,7 @@
 .slick-dots {display:none !important;}
 
 #demo {
-    position:relative;width:200px;height:40px;text-align:center;margin-top:-12em;right:20%;float:right;background: url('img/date.svg') no-repeat;font-weight:bold;
+    position:relative;width:200px;height:40px;text-align:center;margin-top:-12em;right:20%;float:right;background: url('img/date.svg') no-repeat;font-weight:bold;line-height: 1.1em;
 }
 #demo2,#demo2-container {display:none;}
 .arrow_header {margin-top:-6em;}
@@ -41,9 +41,9 @@
           <div class="container">
             <div class="row">
               <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;margin-top:-100px;">
-                <p style="font-size:1.5em;"><b>Théâtre de Thalie 9h-19h<br>Montaigu-Vendée<br></b></p>
+                <p style="font-size:1em;"><b>Pôle Sportif <br> Maxime Bossis<br>Montaigu-Vendée<br></b></p>
                 <img src="img/destination-emploi.svg" alt="" style="width:50%;">
-                <p style="font-size:2.3em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Vendredi 29 mars,<br> prenez la bonne <br> direction pour <br> votre emploi.</p>
+                <p style="font-size:2.3em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Le rendez-vous <br> pour rencontrer<br>des entreprises<br> qui recrutent.</p>
                 <a href="#features-icons">
                 <div style="width:50px;margin-left:auto;margin-right:auto;z-index:1000">
                     <img class="arrow_header" src="img/fleche.svg" alt="" style="">
@@ -85,7 +85,7 @@
                   <div class="features-icons-icon d-flex">
                     <img src="img/50entreprises.svg" alt="" style="width:4em;margin-left:auto;margin-right:auto;">
                   </div>
-                   <p class="lead mb-0"><b style="font-size:1em;font-weight:bold;">50 entreprises</b> tous secteurs d'activité</p>
+                   <p class="lead mb-0"><b style="font-size:1em;font-weight:bold;">80 entreprises</b> tous secteurs d'activité</p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -93,7 +93,7 @@
                   <div class="features-icons-icon d-flex">
                     <img src="img/rencontres.svg" alt="" style="width:4em;margin-left:auto;margin-right:auto;">
                   </div>
-                  <p class="lead mb-0">Des <b style="font-size:1em;font-weight:bold;">rencontres</b>, des ateliers et conférences</p>
+                  <p class="lead mb-0">Des <b style="font-size:1em;font-weight:bold;">rencontres</b>, des conseils et conférences</p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -116,7 +116,7 @@
             <div class="row">
                 <section class="center slider">
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                    <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
+                    <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Alimentaire</p>
                     <img style="margin-top:-1em;" src="img/logos/Logo_Sodebo_300X300_Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
@@ -128,7 +128,7 @@
                     <img style="margin-top:-1em;" src="img/logos/Logo_Defontaine_300X300_Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                      <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
+                      <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Alimentaire</p>
                     <img style="margin-top:-1em;" src="img/logos/Logo_Ponroy_300X300_Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
@@ -136,7 +136,7 @@
                     <img style="margin-top:-1em;" src="img/logos/Logo_Hotel-Saint-James-Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                      <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
+                      <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Alimentaire</p>
                     <img style="margin-top:-1em;" src="img/logos/Logo_Laiterie-de-Montaigu-Terres-de-Montaigu.jpg">
                   </div>
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
@@ -148,7 +148,7 @@
                     <img style="margin-top:-1em;" src="img/logos/Logo_Gebe-Terres-de-Montaigu.jpg">
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Alimentaire</p>
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-BF_agroalimentaire.png">
 
                   </div>
@@ -168,7 +168,7 @@
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Alimentaire</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_Briogel-Terres-de-Montaigu.jpg">
 
                   </div>
@@ -199,7 +199,7 @@
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Alimentaire</p>
                        <img style="margin-top:-1em;" src="img/logos/Logo_Difagri-Terres-de-Montaigu.jpg">
 
                   </div>
@@ -293,7 +293,7 @@
 
                   </div>
                   <div>
-                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Agroalimentaire</p>
+                       <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Alimentaire</p>
                        <img style="margin-top:-1em;" src="img/logos/Destination-Emploi-Terres-de-Montaigu-bonte_AGROALIMENTAIRE.png">
 
                   </div>
@@ -423,11 +423,11 @@
                 </div>
                 <div class="col-lg-2 text-center">
                     <div class="work_thumb" style="background: url('img/icon-agro.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"></div>
-                    <h6 style="color:#01B1BB;margin-top:1em;font-size:0.8em;">Agroalimentaire</h6>
+                    <h6 style="color:#01B1BB;margin-top:1em;font-size:0.8em;">Alimentaire</h6>
                 </div>
                 <div class="col-lg-2 text-center">
                     <div class="work_thumb" style="background: url('img/icon-btp.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"></div>
-                    <h6 style="color:#01B1BB;margin-top:1em;font-size:0.8em;">BTP</h6>
+                    <h6 style="color:#01B1BB;margin-top:1em;font-size:0.8em;">Construction et Aménagement</h6>
                 </div>
                 <div class="col-lg-2 text-center">
                     <div class="work_thumb" style="background: url('img/icon-service.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"></div>
@@ -435,7 +435,7 @@
                 </div>
                 <div class="col-lg-2 text-center">
                     <div class="work_thumb" style="background: url('img/icon-logistique.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"></div>
-                    <h6 style="color:#01B1BB;margin-top:1em;font-size:0.8em;">Logistique / Transport</h6>
+                    <h6 style="color:#01B1BB;margin-top:1em;font-size:0.8em;">Transport de voyageurs et marchandises</h6>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
@@ -479,14 +479,18 @@
               <div class="col-lg-8 showcase-text">
                   <div style="" class="new_place">
                       <h2 class="first_letter" style="color:white;">Nouveau lieu, nouveau format, nouvelle destination pour l'emploi
-                      <br><br>Entrée libre et gratuite</h2>
-                      <p class="lead mb-0" style="color:white;padding-left:1.5em;">Chaque année depuis 7 ans, Pôle Emploi organise les rendez-vous de l’emploi afin de répondre au dynamisme croissant des entreprises et à leurs besoins en recrutement.
+                      <br><br>Entrée libre et gratuite <br> <span style="font-size:0.5em">Masque et Pass sanitaire exigés</span></h2>
+                      <p class="lead mb-0" style="color:white;padding-left:1.5em;">
+                          <br>
+                          <b>Nouveautés 2022</b><br>
+                          Un nouveau lieu, le pôle sportif Maxime Bossis et ses 1 350 m² dédié à l’emploi pour l’occasion « JEUNES TALENTS », vous êtes à la recherche d’un stage, d’une alternance, d’un apprentissage, d’un job saisonnier ou étudiant, un temps vous est dédié de 17h à 19h pour rencontrer les entreprises en recherchent de Jeunes Talents.
                           <br><br>
-                          Cette année, Terres de Montaigu s’associe à Pôle Emploi pour répondre aux besoins toujours plus importants des entreprises. Les rendez-vous de l'emploi deviennent Destination Emploi, une journée entièrement dédiée à l'emploi sur plus de 1 800 m2.</h2>
+                          <b>Retour sur 2019</b><br>
+                          - 2 200 visiteurs<br>
+                          - 70 entreprises et établissements recruteurs
                           <br>
-                          <br>
-                          <h3 style="color:#2C2D78;padding-left:1em;">Rendez-vous le 29 mars 2019 !</h3>
-                          <p style="color:white;padding-left:1.7em;">Théâtre de Thalie / Montaigu-Vendée / 9h-19h</p>
+                          <h3 style="color:#2C2D78;padding-left:1em;">Rendez-vous le 17 mars 2022 !</h3>
+                          <p style="color:white;padding-left:1.7em;">Pôle sportif Maxime Bossis / Montaigu-Vendée / 9h-20h</p>
                     </div>
             </div>
             <div class="col-lg-4 showcase-img img-special" style="background: url('img/lieu.png') no-repeat;background-size:cover">
@@ -521,7 +525,7 @@ d’un salarié de STBM (Métallurgie)</p>
                 <div class="col-lg-3 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">11:30</p></div>
                     <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Les métiers de la construction et de l’aménagement recrutent tout au long de la vie</b>
-                        <br>Fédération Française du Bâtiment, GEIQ BTP, CFA BTP, AFPIA
+                        <br>Fédération Française du Bâtiment, GEIQ Construction et Aménagement, CFA Construction et Aménagement, AFPIA
 Avec le témoignage de l’entreprise Spide Chauveau (Peinture)</p>
                 </div>
                 <div class="col-lg-3 text-center">
@@ -606,7 +610,7 @@ Avec le témoignage de la Laiterie de Montaigu, de Sodebo</p>
 
         <script>
             // Set the date we're counting down to
-            var countDownDate = new Date("March 29, 2019 00:00:01").getTime();
+            var countDownDate = new Date("March 17, 2022 00:00:01").getTime();
 
             // Update the count down every 1 second
             var x = setInterval(function() {
@@ -624,8 +628,8 @@ Avec le témoignage de la Laiterie de Montaigu, de Sodebo</p>
               var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
               // Display the result in the element with id="demo"
-              document.getElementById("demo").innerHTML = "J-" + days + " H- " + hours;
-               document.getElementById("demo2").innerHTML = "J-" + days + " H- " + hours;
+              document.getElementById("demo").innerHTML = "J-" + days + " H- " + hours + "<br> 17 Mars 2022";
+               document.getElementById("demo2").innerHTML = "J-" + days + " H- " + hours+ "<br> 17 Mars 2022";
 
               // If the count down is finished, write some text
               if (distance < 0) {

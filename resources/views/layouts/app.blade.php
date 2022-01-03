@@ -163,7 +163,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-3">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10888.061833880218!2d-1.3082358!3d46.981031!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacb76df32b7afef6!2zVGjDqcOidHJlIGRlIFRoYWxpZQ!5e0!3m2!1sfr!2sfr!4v1549541249517" height="350" frameborder="0" style="width:100%;border:0;padding-bottom:3em;" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10887.346351213215!2d-1.3066043!3d46.9845442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49e054f383db6515!2sComplexe%20sportif%20Maxime%20Bossis!5e0!3m2!1sfr!2sfr!4v1641203510276!5m2!1sfr!2sfr" height="350" frameborder="0" style="width:100%;border:0;padding-bottom:3em;" allowfullscreen></iframe>
                     </div>
                     <div class="col-lg-1">
 
