@@ -41,7 +41,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;margin-top:-100px;">
-                <p style="font-size:1em;"><b>Pôle Sportif <br> Maxime Bossis<br>Montaigu-Vendée<br></b></p>
+                <p style="font-size:1.3em;"><br><br><br><b>Pôle Sportif Maxime Bossis<br>Montaigu-Vendée<br></b></p>
                 <img src="img/destination-emploi.svg" alt="" style="width:50%;">
                 <p style="font-size:2.3em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Le rendez-vous <br> pour rencontrer<br>des entreprises<br> qui recrutent.</p>
                 <a href="#features-icons">
@@ -114,6 +114,7 @@
                   <h2 class="mb-5 first_letter" style="margin-left:auto;margin-right:auto;">Votre futur emploi se trouve ici.</h2>
               </div>
             <div class="row">
+                <!--
                 <section class="center slider">
                   <div style="text-align:center;display:table-cell;vertical-align: middle;">
                     <p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;">Alimentaire</p>
@@ -379,13 +380,10 @@
 
                   </div>
                 </section>
-            <!--
-            <div class="row" style="margin-top:5em;color:#E5007D">
+                -->
                 <div class="col-md-12 text-center">
-                    <h5 style="font-weight:400;">JE DÉCOUVRE<br> TOUTES LES OFFRES <img src="img/fleche-droite.svg" alt="" style="width:50px;margin-top:-30px;margin-left:10px;"></h5>
+                    <h5 style="font-weight:400;">Découvrez prochainement les entreprises participantes parmi les + de 30 entreprises déjà inscrites</h5>
                 </div>
-            </div>
-        -->
           </div>
         </section>
 
@@ -483,9 +481,9 @@
                       <p class="lead mb-0" style="color:white;padding-left:1.5em;">
                           <br>
                           <b>Nouveautés 2022</b><br>
-                          Un nouveau lieu, le pôle sportif Maxime Bossis et ses 1 350 m² dédié à l’emploi pour l’occasion « JEUNES TALENTS », vous êtes à la recherche d’un stage, d’une alternance, d’un apprentissage, d’un job saisonnier ou étudiant, un temps vous est dédié de 17h à 19h pour rencontrer les entreprises en recherchent de Jeunes Talents.
+                          Un nouveau lieu, le pôle sportif Maxime Bossis et ses 1 350 m² dédiés à l’emploi pour l’occasion<br> « JEUNES TALENTS », vous êtes à la recherche d’un stage, d’une alternance, d’un apprentissage, d’un job saisonnier ou étudiant, un temps vous est dédié de 17h à 19h pour rencontrer les entreprises en recherche de Jeunes Talents.
                           <br><br>
-                          <b>Retour sur 2019</b><br>
+                          <b>Destination Emploi 2019, objectif atteint et dépassé</b><br>
                           - 2 200 visiteurs<br>
                           - 70 entreprises et établissements recruteurs
                           <br>
@@ -505,8 +503,10 @@
               <div class="row text-center">
                   <div class="col">
                       <p class="mb-5" style="color:white">Avec Destination Emploi, trouvez les conseils et les informations utiles pour trouver votre nouvel emploi et réussir votre projet professionnel.</p>
+                      <h4 style="color:white">PROGRAMME DE CONFERENCES EN COURS DE CONSTRUCTION</h4>
                   </div>
             </div>
+            <!--
             <div class="row">
                 <div class="col-lg-3 text-center">
                     <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;">
@@ -556,6 +556,7 @@ Avec le témoignage de l’entreprise NOVATICS (Robotique)</p>
 Avec le témoignage de la Laiterie de Montaigu, de Sodebo</p>
                 </div>
             </div>
+        -->
           </div>
         </section>
         <section class="testimonials text-center" style="background-color:#F6F6F6;color:#31328A;">

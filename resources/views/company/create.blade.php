@@ -62,7 +62,7 @@
                     <h4>L'entreprise</h4>
                 </div>
                     <div class="form-group col-lg-6">
-                        <label>Numéro de SIEN* <small>(obligatoire)</small></label>
+                        <label>Numéro de SIREN* <small>(obligatoire)</small></label>
                         <input type="text" class="form-control" name="siren" required="required">
                     </div>
                     <div class="form-group col-lg-6">
@@ -99,7 +99,7 @@
                         <input type="number" class="form-control" name="nb_jobs" min="0" required="required">
                     </div>
                     <div class="form-group col-lg-6">
-                        <p>Avez-vous des postes à pourvoir à destination des jeunes de type contrats de professionnalisation (stage, apprentissage, alternance, job saisonnier, job étudiant) ?* <small>(obligatoire)</small></p>
+                        <p>Avez-vous des postes à destination des jeunes de type cstage, apprentissage, alternance, job saisonnier, job étudiant ?* <small>(obligatoire)</small></p>
                         <input type="radio" name="job-jeune" value="yes" required="required">
                         <label for="">Oui</label>
                         <input type="radio" name="job-jeune" value="no" required="required">
@@ -122,18 +122,25 @@
 
 Terres de Montaigu et ses partenaires, Pôle Emploi et la Maison Départementale du Développement Economique et de l’Emploi (MDEDE), vous propose un atelier de préparation au salon. </p>
                     </div>
-                    <div class="form-group col-lg-6">
+                    <div class="form-group col-lg-4">
                         <p>Trouvez plus de candidats avec l'approche compétences</p>
                         <input type="radio" name="atelier-1" value="20-01-2022" required="required">
                         <label for="">20 Janvier 8h30 - 10h30</label><br>
                         <input type="radio" name="atelier-1" value="27-01-2022" required="required">
                         <label for="">27 Janvier 8h30 - 10h30</label>
                     </div>
-                    <div class="form-group col-lg-6">
+                    <div class="form-group col-lg-4">
                         <p>Marque employeur : communiquer pour mieux recruter</p>
                         <input type="radio" name="atelier-2" value="20-01-2022" required="required">
                         <label for="">20 Janvier 8h30 - 10h30</label><br>
                         <input type="radio" name="atelier-2" value="27-01-2022" required="required">
+                        <label for="">27 Janvier 8h30 - 10h30</label>
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <p>Rédiger une offre d’emploi attractive. Les clés d’une intégration réussie</p>
+                        <input type="radio" name="atelier-3" value="20-01-2022" required="required">
+                        <label for="">20 Janvier 8h30 - 10h30</label><br>
+                        <input type="radio" name="atelier-3" value="27-01-2022" required="required">
                         <label for="">27 Janvier 8h30 - 10h30</label>
                     </div>
                 </div>

@@ -109,7 +109,7 @@
       <body>
 
         <!-- Navigation -->
-        <nav class="navbar navbar-light bg-light static-top text-center">
+        <nav class="navbar navbar-light bg-light static-top text-center" style="width:100%;position:fixed;z-index:1000;">
           <div class="container text-center">
             <a class="navbar-brand" href="/" style="margin-left:42.5%;margin-right:auto;">
                 <img src="{{ asset('img/logo.png')}}" alt="" style="width:150px;">
@@ -159,7 +159,7 @@
             <footer class="footer" style="color:white;background-color:#31328A">
               <div class="container-fluid" style="width:90%">
                 <div class="row" style="padding-bottom:2em;">
-                    <h4>Comment se rendre à destination emploi ?</h4>
+                    <h4>Comment se rendre à Destination Emploi ?</h4>
                 </div>
                 <div class="row">
                     <div class="col-lg-3">
