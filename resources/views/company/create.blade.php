@@ -116,33 +116,6 @@
                         <input type="checkbox" name="job-jeune-type[]" value="Autre">
                         <label>Autres</label>
                     </div>
-                    <div class="col-lg-12">
-                        <h3>Choisir les dates pour les ateliers de préparation</h3>
-                        <p>« La marque employeur et l’approche compétences pour recruter et intégrer mes nouveaux talents »
-
-Terres de Montaigu et ses partenaires, Pôle Emploi et la Maison Départementale du Développement Economique et de l’Emploi (MDEDE), vous propose un atelier de préparation au salon. </p>
-                    </div>
-                    <div class="form-group col-lg-4">
-                        <p>Trouvez plus de candidats avec l'approche compétences</p>
-                        <input type="radio" name="atelier-1" value="20-01-2022" required="required">
-                        <label for="">20 Janvier 8h30 - 10h30</label><br>
-                        <input type="radio" name="atelier-1" value="27-01-2022" required="required">
-                        <label for="">27 Janvier 8h30 - 10h30</label>
-                    </div>
-                    <div class="form-group col-lg-4">
-                        <p>Marque employeur : communiquer pour mieux recruter</p>
-                        <input type="radio" name="atelier-2" value="20-01-2022" required="required">
-                        <label for="">20 Janvier 8h30 - 10h30</label><br>
-                        <input type="radio" name="atelier-2" value="27-01-2022" required="required">
-                        <label for="">27 Janvier 8h30 - 10h30</label>
-                    </div>
-                    <div class="form-group col-lg-4">
-                        <p>Rédiger une offre d’emploi attractive. Les clés d’une intégration réussie</p>
-                        <input type="radio" name="atelier-3" value="20-01-2022" required="required">
-                        <label for="">20 Janvier 8h30 - 10h30</label><br>
-                        <input type="radio" name="atelier-3" value="27-01-2022" required="required">
-                        <label for="">27 Janvier 8h30 - 10h30</label>
-                    </div>
                 </div>
                 <div class="col-lg-12 text-center">
                     <div class="form-check">

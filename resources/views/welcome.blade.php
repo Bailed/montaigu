@@ -414,7 +414,6 @@
                   </div>
             </div>
             <div class="row">
-                <div class="col-lg-1"></div>
                 <div class="col-lg-2 text-center">
                     <div class="work_thumb" style="background: url('img/icon-metallerie.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"></div>
                     <h6 style="color:#01B1BB;margin-top:1em;font-size:0.8em;">Métallerie</h6>
@@ -435,7 +434,10 @@
                     <div class="work_thumb" style="background: url('img/icon-logistique.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"></div>
                     <h6 style="color:#01B1BB;margin-top:1em;font-size:0.8em;">Transport de voyageurs et marchandises</h6>
                 </div>
-                <div class="col-lg-1"></div>
+                <div class="col-lg-2 text-center">
+                    <div class="work_thumb" style="background: url('img/icon-administration.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"></div>
+                    <h6 style="color:#01B1BB;margin-top:1em;font-size:0.8em;">Administration</h6>
+                </div>
             </div>
           </div>
         </section>
