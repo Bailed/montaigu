@@ -109,7 +109,7 @@
       <body>
 
         <!-- Navigation -->
-        <nav class="navbar navbar-light bg-light static-top text-center" style="width:100%;position:fixed;z-index:1000;">
+        <nav class="navbar navbar-light bg-light static-top text-center" style="width:100%;position:fixed;z-index:1000;top:0">
           <div class="container text-center">
             <a class="navbar-brand" href="/" style="margin-left:42.5%;margin-right:auto;">
                 <img src="{{ asset('img/logo.png')}}" alt="" style="width:150px;">
