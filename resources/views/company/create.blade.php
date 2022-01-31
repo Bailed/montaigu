@@ -120,7 +120,7 @@
                 <div class="col-lg-12 text-center">
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" name="confirmation" required="required">
-                        <label class="form-check-label">Je confirme ma participation au salon Destination Emploi le vendredi 29 mars 2019 et m'engage à régler une participation de 400€ net de taxe à Terres de Montaigu sur facture.
+                        <label class="form-check-label">Je confirme ma participation au salon Destination Emploi le vendredi 17 mars 2022 et m'engage à régler une participation de 400€ net de taxe à Terres de Montaigu sur facture.
                         </label>
                     </div>
                 </div>
