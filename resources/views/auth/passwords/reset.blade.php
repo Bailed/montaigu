@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container" style="padding-top:150px;padding-bottom:200px">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card"  style="padding:1000px !important"
+            <div class="card">
                 <div class="card-header">Réinitialisation mot de passe</div>
 
                 <div class="card-body">

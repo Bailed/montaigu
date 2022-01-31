@@ -39,4 +39,10 @@ class User extends Authenticatable
         $company = Company::where('uid',Auth::user()->company)->first();
         return json_decode($company->company_values, true);
     }
+
+    public function sendPasswordResetNotification($token)
+    {
+        // Your your own implementation.
+        $this->notify(new ResetPasswordNotification($token));
+    }
 }
