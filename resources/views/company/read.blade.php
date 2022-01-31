@@ -90,23 +90,23 @@
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 1</label>
-                  <input disabled type="text" class="form-control" name="value_1" @if($company_values->value1) value='{{ $company_values->value1 }}' @endif>
+                  <input disabled type="text" class="form-control" name="value_1" @if($company_values && $company_values->value1) value='{{ $company_values && $company_values->value1 }}' @endif>
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 2</label>
-                  <input disabled type="text" class="form-control" name="value_2" @if($company_values->value2) value="{{ $company_values->value2}}" @endif>
+                  <input disabled type="text" class="form-control" name="value_2" @if($company_values && $company_values->value2) value="{{ $company_values && $company_values->value2}}" @endif>
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 3</label>
-                  <input disabled type="text" class="form-control" name="value_3" @if($company_values->value3) value="{{ $company_values->value3}}" @endif>
+                  <input disabled type="text" class="form-control" name="value_3" @if($company_values && $company_values->value3) value="{{ $company_values && $company_values->value3}}" @endif>
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 4</label>
-                  <input disabled type="text" class="form-control" name="value_4" @if($company_values->value4) value="{{ $company_values->value4}}" @endif>
+                  <input disabled type="text" class="form-control" name="value_4" @if($company_values && $company_values->value4) value="{{ $company_values && $company_values->value4}}" @endif>
                 </div>
                 <div class="form-group col-lg-2">
                   <label>Valeur 5</label>
-                  <input disabled type="text" class="form-control" name="value_5" @if($company_values->value5) value="{{ $company_values->value5}}" @endif>
+                  <input disabled type="text" class="form-control" name="value_5" @if($company_values && $company_values->value5) value="{{ $company_values->value5}}" @endif>
                 </div>
             </div>
         </div>
