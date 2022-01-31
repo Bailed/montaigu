@@ -69,16 +69,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 text-center">
-                <div class="form-check">
-                   <input disabled type="checkbox" class="form-check-input" name="accompagner" @if($company->accompagnement) checked @endif>
-                   <label class="form-check-label">Accompagnement</label>
-                 </div>
-             </div>
-             <div class="col-lg-6 text-center">
+             <div class="col-lg-12 text-center">
                  <div class="form-check">
                     <input disabled type="checkbox" class="form-check-input" name="confirmation" @if($company->confirmation) checked @endif>
-                    <label class="form-check-label">Confirmation</label>
+                    <label class="form-check-label">Confirmation de présence au salon</label>
                   </div>
             </div>
         </div>
