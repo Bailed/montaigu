@@ -41,7 +41,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;margin-top:-100px;">
-                <p style="font-size:1.3em;"><br><br><br><b>Pôle Sportif Maxime Bossis<br>Montaigu-Vendée<br></b></p>
+                <p style="font-size:1.3em;"><br><b>17 mars 2022 - 9h à 20h</b><br><b>Pôle Sportif Maxime Bossis<br>Montaigu-Vendée<br></b></p>
                 <img src="img/destination-emploi.svg" alt="" style="width:50%;">
                 <p style="font-size:2.3em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Le rendez-vous <br> pour rencontrer<br>des entreprises<br> qui recrutent.</p>
                 <a href="#features-icons">
@@ -382,7 +382,7 @@
                 </section>
                 -->
                 <div class="col-md-12 text-center">
-                    <h5 style="font-weight:400;">Découvrez prochainement les entreprises participantes parmi les + de 30 entreprises déjà inscrites</h5>
+                    <h5 style="font-weight:400;">Découvrez prochainement les entreprises participantes parmi les + de 50 entreprises déjà inscrites</h5>
                 </div>
           </div>
         </section>
@@ -398,7 +398,7 @@
               </div>
               <div class="col-lg-6 showcase-text showcase-text-special">
                 <h2 class="first_letter" style="color:#2C2D78"> Destination Emploi : une journée pour trouver un emploi et bien plus encore.</h2>
-                <p class="lead mb-0" style="padding-left:1.5em;color:#2C2D78;font-size:1.2em;">Destination Emploi, c’est la journée incontournable de l’emploi en Terres de Montaigu. Que vous soyez à la recherche d’un emploi, étudiant, en reconversion ou simplement à l’écoute de nouvelles opportunités, vous y trouverez de nombreuses offres d’emploi disponibles immédiatement ainsi que toutes les informations sur la formation professionnelle et la reconversion.</h2>
+                <p class="lead mb-0" style="padding-left:1.5em;color:#2C2D78;font-size:1.2em;">Destination Emploi, c’est la journée incontournable de l’emploi à Terres de Montaigu. Que vous soyez à la recherche d’un emploi, étudiant, en reconversion ou simplement à l’écoute de nouvelles opportunités, vous y trouverez de nombreuses offres d’emploi disponibles immédiatement ainsi que toutes les informations sur la formation professionnelle et la reconversion.</h2>
             </div>
           </div>
         </section>
@@ -448,27 +448,34 @@
                     <h2 class="mb-5 first_letter" style="margin-left:auto;margin-right:auto;">Toutes les offres d'emploi.</h2>
                 </div>
                 <div class="row">
-                    <section class="center slider">
-                        @foreach($jobs as $job)
-                        <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                                @if($job->company()->activity_area == "industry")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"> Industrie
-                                @elseif($job->company()->activity_area == "bat")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Construction, Travaux publics
-                                @elseif($job->company()->activity_area == "b2c")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Service aux particuliers
-                                @elseif($job->company()->activity_area == "b2b")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Service aux entreprises
-                                @elseif($job->company()->activity_area == "commerce")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Commerce de détails
-                                @elseif($job->company()->activity_area == "transport")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Transport et Logistique
-                                @elseif($job->company()->activity_area == "hotel")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Hôtellerie et Restauration
-                                @endif
-                            </p>
-                            @if($job->company()->logo)
-                            <img src="img/logos/{{$job->company()->logo}}" style="margin-top:-1em;padding-bottom:1em;" alt="">
-                            @else
-                            <img src="img/programme-fond.png" style="height:100px;margin-top:-1em;padding-bottom:1em;" alt="">
-                            @endif
-                            <p style="text-align:center;">{{$job->name}}</p>
+
+                        @if(count($jobs) > 9)
+                            <section class="center slider">
+                                @foreach($jobs as $job)
+                                <div style="text-align:center;display:table-cell;vertical-align: middle;">
+                                        @if($job->company()->activity_area == "industry")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.8em;"> Industrie
+                                        @elseif($job->company()->activity_area == "bat")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Construction, Travaux publics
+                                        @elseif($job->company()->activity_area == "b2c")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Service aux particuliers
+                                        @elseif($job->company()->activity_area == "b2b")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Service aux entreprises
+                                        @elseif($job->company()->activity_area == "commerce")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Commerce de détails
+                                        @elseif($job->company()->activity_area == "transport")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Transport et Logistique
+                                        @elseif($job->company()->activity_area == "hotel")<p style="text-align:center;height:50px;vertical-align:middle;width:100%;background-color:#00B2BB;padding-top:0.2em;"> Hôtellerie et Restauration
+                                        @endif
+                                    </p>
+                                    @if($job->company()->logo)
+                                    <img src="img/logos/{{$job->company()->logo}}" style="margin-top:-1em;padding-bottom:1em;" alt="">
+                                    @else
+                                    <img src="img/programme-fond.png" style="height:100px;margin-top:-1em;padding-bottom:1em;" alt="">
+                                    @endif
+                                    <p style="text-align:center;">{{$job->name}}</p>
+                                </div>
+                                @endforeach
+                            </section>
+                        @else
+                        <div class="col-12 text-center">
+                            <h5 style="font-weight:400;">Les offres seront bientôt disponibles !</h5>
                         </div>
-                        @endforeach
-                    </section>
+                        @endif
                 </div>
             </section>
 

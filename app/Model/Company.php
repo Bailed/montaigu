@@ -32,7 +32,8 @@ class Company extends Authenticatable
         'nb_jobs',
         'company_values',
         'accompagnement',
-        'confirmation'
+        'confirmation',
+        'logo'
 
     ];
 

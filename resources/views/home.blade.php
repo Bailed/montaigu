@@ -8,10 +8,12 @@
             <div class="card">
                 <div class="card-header">Tableau de pilotage <span style="float:right"><a href="{{route('company.update')}}">Modifier</a></span></div>
                 <div class="card-body">
-                    <b>Votre société :</b> {{ Auth::user()->company()->name }}
-                    <br><b>Adresse : </b> @if(Auth::user()->company()->address) {{ Auth::user()->company()->address }} - {{ Auth::user()->company()->zip }} {{ Auth::user()->company()->town }} @else <i>non défini pour le moment</i> @endif
-                    <br><b>Secteur d'activité :</b>
-                        @if(Auth::user()->company()->activity_area)
+                    <div class="row">
+                        <div class="col-md-9">
+                            <b>Votre société :</b> {{ Auth::user()->company()->name }}
+                            <br><b>Adresse : </b> @if(Auth::user()->company()->address) {{ Auth::user()->company()->address }} - {{ Auth::user()->company()->zip }} {{ Auth::user()->company()->town }} @else <i>non défini pour le moment</i> @endif
+                            <br><b>Secteur d'activité :</b>
+                            @if(Auth::user()->company()->activity_area)
                             @if(Auth::user()->company()->activity_area == "industry")Industrie @endif
                             @if(Auth::user()->company()->activity_area == "bat")Construction, Travaux publics @endif
                             @if(Auth::user()->company()->activity_area == "b2c")Service aux particuliers @endif
@@ -19,14 +21,22 @@
                             @if(Auth::user()->company()->activity_area == "commerce")Commerce de détails @endif
                             @if(Auth::user()->company()->activity_area == "transport")Transport et Logistique @endif
                             @if(Auth::user()->company()->activity_area == "hotel")Hôtellerie et Restauration @endif
-                        @else
+                            @else
                             <i>non défini pour le moment</i>
-                        @endif
-                    <br><b>Nombre de propositions d'emploi sur l'année :</b> @if(Auth::user()->company()->nb_jobs) {{ Auth::user()->company()->nb_jobs }} @else <i>non défini pour le moment</i> @endif
-                    <br><b>Les 5 valeurs de l'entreprise :</b> @if($company_values)
-                                                                    @foreach($company_values as $value) {{ $value }} @endforeach
+                            @endif
+                            <br><b>Nombre de propositions d'emploi sur l'année :</b> @if(Auth::user()->company()->nb_jobs) {{ Auth::user()->company()->nb_jobs }} @else <i>non défini pour le moment</i> @endif
+                            <br><b>Les 5 valeurs de l'entreprise :</b> @if($company_values)
+                            @foreach($company_values as $value) {{ $value }} @endforeach
 
-                                                                @endif
+                            @endif
+                        </div>
+                        <div class="col-md-3">
+                            <b>Logo :</b>
+                            @if(Auth::user()->company()->logo)
+                                <img src="{{asset('img/logos/'.Auth::user()->company()->logo)}}" alt="" width="150">
+                            @endif
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -37,40 +47,40 @@
             <div class="card">
                 <div class="card-header">Vos offres d'emploi
                     <span style="float:right">
-                    <button class="btn btn-primary" data-toggle="modal" data-target="#addJob">Ajouter</button>
-                    <form action="" method="post">
-                    @csrf
-                        <div class="modal fade" id="addJob" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Ajouter une offre d'emploi</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                                  <div class="form-group">
-                                      <label for="">Nom de l'offre</label>
-                                      <input class="form-control" type="text" name="name">
-                                  </div>
-                                  <div class="form-group">
-                                    <label>Description</label>
-                                    <textarea class="form-control" rows="3" name="resume"></textarea>
-                                  </div>
-                                  <div class="form-group">
-                                      <label for="">URL de l'image de présentation <i><small>(facultatif)</small></i></label>
-                                      <input class="form-control" type="text" name="img_url">
-                                  </div>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                                <button type="submit" class="btn btn-primary">Ajouter</button>
-                              </div>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#addJob">Ajouter</button>
+                        <form action="" method="post">
+                            @csrf
+                            <div class="modal fade" id="addJob" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Ajouter une offre d'emploi</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="form-group">
+                                                <label for="">Nom de l'offre</label>
+                                                <input class="form-control" type="text" name="name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Description</label>
+                                                <textarea class="form-control" rows="3" name="resume"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">URL de l'image de présentation <i><small>(facultatif)</small></i></label>
+                                                <input class="form-control" type="text" name="img_url">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                                            <button type="submit" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                        </div>
-                    </form>
+                        </form>
                     </span>
                 </div>
                 <div class="card-body">

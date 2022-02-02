@@ -88,6 +88,15 @@ class CompaniesController extends Controller
             "value4" => $request->input('value_4'),
             "value5" => $request->input('value_5'),
         );
+
+        if($request->file) {
+
+            $request->validate([
+                'file' => 'max:8192',
+            ]);
+            $request->file->move(public_path('img/logos/'), $request->file->getClientOriginalName());
+        }
+
         $company = Company::where('uid',$uid)->update([
             'address' => $request->input('address'),
             'zip' => $request->input('zip'),
@@ -100,7 +109,8 @@ class CompaniesController extends Controller
             'activity_area' => $request->input('activity_area'),
             'accompagnement' => $accompagner,
             'nb_jobs' => $request->input('nb_jobs'),
-            'company_values' => json_encode($values)
+            'company_values' => json_encode($values),
+            'logo' => $request->file->getClientOriginalName() ?? null
         ]);
 
         return redirect()->route('home');

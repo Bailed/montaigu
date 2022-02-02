@@ -9,7 +9,7 @@
             <h2 class="first_letter" style="color:#2C2D78"> Mise à jour de votre entreprise<br>
         </div>
     </div>
-    <form action="{{route('company.update.post',['uid' => Auth::user()->company()->uid])}}" method="post">
+    <form action="{{route('company.update.post',['uid' => Auth::user()->company()->uid])}}" method="post" enctype="multipart/form-data">
         @csrf
     <div class="row">
         <div class="col-lg-6">
@@ -66,6 +66,13 @@
             <div class="form-group">
               <label>Téléphone</label>
               <input type="text" class="form-control" name="contact_phone"  value="{{Auth::user()->company()->contact_phone}}">
+            </div>
+            <div class="form-group">
+              <label>Logo</label>
+              <input type="file" class="form-control" name="file"  value="{{Auth::user()->company()->logo}}">
+              @if(Auth::user()->company()->logo)
+                  <img src="{{asset('img/logos/'.Auth::user()->company()->logo)}}" alt="" width="150">
+              @endif
             </div>
         </div>
         <div class="col-lg-12 text-center">
