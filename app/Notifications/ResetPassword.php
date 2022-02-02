@@ -22,9 +22,9 @@ class ResetPassword extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->subject('Your Reset Password Subject Here')
-            ->line('You are receiving this email because we received a password reset request for your account.')
-            ->action('Reset Password', url('password/reset', $this->token))
-            ->line('If you did not request a password reset, no further action is required.');
+            ->subject('Ré-initialisation de votre mot de passe')
+            ->line('Vous recevez ce mail suite à votre demande de configuration de votre nouveau mot de passe.')
+            ->action('Configurer un nouveau mot de passe', url('password/reset', $this->token))
+            ->line("Si vous n'avez pas demandé un nouveau mot de passe, ne tenez pas compte de ce mail.");
     }
 }
