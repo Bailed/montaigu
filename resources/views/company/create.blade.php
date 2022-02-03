@@ -99,21 +99,21 @@
                         <input type="number" class="form-control" name="nb_jobs" min="0" required="required">
                     </div>
                     <div class="form-group col-lg-6">
-                        <p>Avez-vous des postes à destination des jeunes de type cstage, apprentissage, alternance, job saisonnier, job étudiant ?* <small>(obligatoire)</small></p>
-                        <input type="radio" name="job-jeune" value="yes" required="required">
+                        <p>Avez-vous des postes à destination des jeunes de type stage, apprentissage, alternance, job saisonnier, job étudiant ?* <small>(obligatoire)</small></p>
+                        <input type="radio" name="jeunes" value="1" required="required">
                         <label for="">Oui</label>
-                        <input type="radio" name="job-jeune" value="no" required="required">
+                        <input type="radio" name="jeunes" value="0" required="required">
                         <label for="">Non</label>
                     </div>
                     <div class="form-group col-lg-6">
                         <p>Si oui, type de contrats :</p>
-                        <input type="checkbox" name="job-jeune-type[]" value="Stage">
+                        <input type="checkbox" name="jeunes_types[]" value="Stage">
                         <label>Stage</label>
-                        <input type="checkbox" name="job-jeune-type[]" value="Alternance">
+                        <input type="checkbox" name="jeunes_types[]" value="Alternance">
                         <label>Alternance</label>
-                        <input type="checkbox" name="job-jeune-type[]" value="Saison">
+                        <input type="checkbox" name="jeunes_types[]" value="Saison">
                         <label>Job saisonnier</label>
-                        <input type="checkbox" name="job-jeune-type[]" value="Autre">
+                        <input type="checkbox" name="jeunes_types[]" value="Autre">
                         <label>Autres</label>
                     </div>
                 </div>

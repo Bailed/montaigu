@@ -75,6 +75,24 @@
               @endif
             </div>
         </div>
+        <div class="form-group col-lg-6">
+            <p>Avez-vous des postes à destination des jeunes de type stage, apprentissage, alternance, job saisonnier, job étudiant ?* <small>(obligatoire)</small></p>
+            <input type="radio" name="jeunes" value="1" @if(Auth::user()->company()->jeunes) checked @endif required="required">
+            <label for="">Oui</label>
+            <input type="radio" name="jeunes" value="0" @if(!Auth::user()->company()->jeunes) checked @endif required="required">
+            <label for="">Non</label>
+        </div>
+        <div class="form-group col-lg-6">
+            <p>Si oui, type de contrats :</p>
+            <input type="checkbox" name="jeunes_types[]" @if(in_array('Stage',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Stage">
+            <label>Stage</label>
+            <input type="checkbox" name="jeunes_types[]" @if(in_array('Alternance',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Alternance">
+            <label>Alternance</label>
+            <input type="checkbox" name="jeunes_types[]" @if(in_array('Saison',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Saison">
+            <label>Job saisonnier</label>
+            <input type="checkbox" name="jeunes_types[]" @if(in_array('Autre',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Autre">
+            <label>Autres</label>
+        </div>
         <div class="col-lg-12 text-center">
              <div class="form-check">
                 <input type="checkbox" class="form-check-input" name="confirmation" @if(Auth::user()->company()->confirmation) checked @endif disabled>

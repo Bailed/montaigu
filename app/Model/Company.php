@@ -33,7 +33,9 @@ class Company extends Authenticatable
         'company_values',
         'accompagnement',
         'confirmation',
-        'logo'
+        'logo',
+        'jeunes',
+        'jeunes_types'
 
     ];
 

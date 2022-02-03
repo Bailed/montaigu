@@ -20,6 +20,7 @@ class CompaniesController extends Controller
     }
 
     public function createPost(Request $request) {
+
         $values = array(
             "value1" => $request->input('value_1'),
             "value2" => $request->input('value_2'),
@@ -27,6 +28,15 @@ class CompaniesController extends Controller
             "value4" => $request->input('value_4'),
             "value5" => $request->input('value_5'),
         );
+
+        $jeunes_types = array();
+        if($request->input('jeunes') == 1 ) {
+            if($request->input('jeunes_types')) {
+                foreach($request->input('jeunes_types') as $type) {
+                    array_push($jeunes_types,$type);
+                }
+            }
+        }
 
         $oldCompany = Company::where('contact_mail',$request->input('contact_mail'))->first();
 
@@ -48,7 +58,9 @@ class CompaniesController extends Controller
             'nb_jobs' => $request->input('nb_jobs'),
             'accompagnement' => $accompagner,
             'confirmation' => $confirmation,
-            'company_values' => json_encode($values)
+            'company_values' => json_encode($values),
+            'jeunes' => $request->input('jeunes') ?? 0,
+            'jeunes_types' => json_encode($jeunes_types)
         ]);
 
         $oldUser = User::where('email',$request->input('contact_mail'))->first();
@@ -89,6 +101,15 @@ class CompaniesController extends Controller
             "value5" => $request->input('value_5'),
         );
 
+        $jeunes_types = array();
+        if($request->input('jeunes') == 1 ) {
+            if($request->input('jeunes_types')) {
+                foreach($request->input('jeunes_types') as $type) {
+                    array_push($jeunes_types,$type);
+                }
+            }
+        }
+
         if($request->file) {
 
             $request->validate([
@@ -110,7 +131,9 @@ class CompaniesController extends Controller
             'accompagnement' => $accompagner,
             'nb_jobs' => $request->input('nb_jobs'),
             'company_values' => json_encode($values),
-            'logo' => $request->file->getClientOriginalName() ?? null
+            'logo' => $request->file ? $request->file->getClientOriginalName() : null,
+            'jeunes' => $request->input('jeunes') ?? 0,
+            'jeunes_types' => json_encode($jeunes_types)
         ]);
 
         return redirect()->route('home');
