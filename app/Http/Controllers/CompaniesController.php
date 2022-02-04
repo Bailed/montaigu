@@ -128,7 +128,7 @@ class CompaniesController extends Controller
             'contact_phone' => $request->input('contact_phone'),
             'contact_mail' => $request->input('contact_mail'),
             'activity_area' => $request->input('activity_area'),
-            'confirmation' => $request->input('confirmation'),
+            'confirmation' => $request->input('confirmation') ?? null,
             'accompagnement' => $accompagner,
             'nb_jobs' => $request->input('nb_jobs'),
             'company_values' => json_encode($values),
