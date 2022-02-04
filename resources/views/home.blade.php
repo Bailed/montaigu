@@ -30,7 +30,7 @@
 
                             @endif
                             <br><b>Contrat pour les jeunes :</b>@if(Auth::user()->company()->jeunes) Oui @else Non @endif
-                            @if(count(json_decode(Auth::user()->company()->jeunes_types)) > 0)
+                            @if(Auth::user()->company()->jeunes_types && count(json_decode(Auth::user()->company()->jeunes_types)) > 0)
                             <br><b>Types de contrats :</b>
                             @foreach(json_decode(Auth::user()->company()->jeunes_types) as $type) {{ $type }}, @endforeach
                             @endif
