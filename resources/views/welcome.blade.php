@@ -40,7 +40,7 @@
     <div class="overlay" style="margin-top:4.5em;"></div>
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;margin-top:-100px;">
+            <div class="col-xl-12 mx-auto text-right" style="margin-right:10%;">
                 <p style="font-size:1.3em;"><br><b>17 mars 2022 - 9h à 20h</b><br><b>Pôle Sportif Maxime Bossis<br>Montaigu-Vendée<br></b></p>
                 <img src="img/destination-emploi.svg" alt="" style="width:50%;">
                 <p style="font-size:2.3em;text-shadow: 1px 1px 2px #E5007D;margin-top:1em;">Le rendez-vous <br> pour rencontrer<br>des entreprises<br> qui recrutent.</p>
