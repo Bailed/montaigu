@@ -84,13 +84,13 @@
         </div>
         <div class="form-group col-lg-6">
             <p>Si oui, type de contrats :</p>
-            <input type="checkbox" name="jeunes_types[]" @if(in_array('Stage',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Stage">
+            <input type="checkbox" name="jeunes_types[]" @if(Auth::user()->company()->jeunes_types && in_array('Stage',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Stage">
             <label>Stage</label>
-            <input type="checkbox" name="jeunes_types[]" @if(in_array('Alternance',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Alternance">
+            <input type="checkbox" name="jeunes_types[]" @if(Auth::user()->company()->jeunes_types && in_array('Alternance',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Alternance">
             <label>Alternance</label>
-            <input type="checkbox" name="jeunes_types[]" @if(in_array('Saison',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Saison">
+            <input type="checkbox" name="jeunes_types[]" @if(Auth::user()->company()->jeunes_types && in_array('Saison',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Saison">
             <label>Job saisonnier</label>
-            <input type="checkbox" name="jeunes_types[]" @if(in_array('Autre',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Autre">
+            <input type="checkbox" name="jeunes_types[]" @if(Auth::user()->company()->jeunes_types && in_array('Autre',json_decode(Auth::user()->company()->jeunes_types))) checked @endif value="Autre">
             <label>Autres</label>
         </div>
         <div class="col-lg-12 text-center">
