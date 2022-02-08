@@ -11,7 +11,6 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use App\User;
 use App\Model\Job;
 use App\Model\Company;
-
 use Uuid;
 use Auth;
 
