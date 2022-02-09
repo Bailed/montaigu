@@ -39,10 +39,12 @@
                             <td>
                                 Nombre d'offres : {{ count($company->jobs()) }}
                                 Offres jeunes : {{ $company->jeunes == 1 ? 'Oui' : 'Non' }}
+                                @if($company->jeunes == 1)
                                 Type des offres jeunes : <br>
-                                @foreach(json_decode($company->jeunes_types) as $type)
-                                    {{$type}},
-                                @endforeach
+                                    @foreach(json_decode($company->jeunes_types) as $type)
+                                        {{$type}},
+                                    @endforeach
+                                @endif
                             </td>
                         </tr>
                         <tr></tr>
