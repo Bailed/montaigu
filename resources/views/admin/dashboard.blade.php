@@ -23,8 +23,10 @@
                             <td><a href="{{route('company.read',['uid' => $company->uid])}}">{{$company->name}}</a></td>
                             <td>
                                 {{$company->contact_mail}}
+                                <hr>
                                 <br>
                                 {{$company->address}} <br> {{$company->zip}} {{$company->town}}
+                                <hr>
                                 <br>
                                 {{$company->contact_first_name}} {{$company->contact_last_name}}<br>
                                 {{$company->contact_status}}<br>
@@ -37,10 +39,12 @@
 
                             </td>
                             <td>
-                                Nombre d'offres : {{ count($company->jobs()) }}
-                                Offres jeunes : {{ $company->jeunes == 1 ? 'Oui' : 'Non' }}
+                                <b>Nombre d'offres :</b> {{ count($company->jobs()) }}
+                                <br>
+                                <b>Offres jeunes :</b> {{ $company->jeunes == 1 ? 'Oui' : 'Non' }}
                                 @if($company->jeunes == 1)
-                                Type des offres jeunes : <br>
+                                <br>
+                                <b>Type des offres jeunes : </b><br>
                                     @foreach(json_decode($company->jeunes_types) as $type)
                                         {{$type}},
                                     @endforeach
