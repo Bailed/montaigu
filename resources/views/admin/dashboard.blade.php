@@ -11,10 +11,9 @@
                 <thead>
                     <tr>
                         <th>Nom</th>
-                        <th>Email</th>
-                        <th>Adresse</th>
                         <th>Contact</th>
                         <th>Autre</th>
+                        <th>Offres</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -22,9 +21,11 @@
                     @if($company->uid != "administration")
                         <tr>
                             <td><a href="{{route('company.read',['uid' => $company->uid])}}">{{$company->name}}</a></td>
-                            <td>{{$company->contact_mail}}</td>
-                            <td>{{$company->address}} <br> {{$company->zip}} {{$company->town}}</td>
                             <td>
+                                {{$company->contact_mail}}
+                                <br>
+                                {{$company->address}} <br> {{$company->zip}} {{$company->town}}
+                                <br>
                                 {{$company->contact_first_name}} {{$company->contact_last_name}}<br>
                                 {{$company->contact_status}}<br>
                                 <a href="tel:{{$company->contact_phone}}">{{$company->contact_phone}}</a> | <a href="tel:{{$company->contact_mail}}">{{$company->contact_mail}}</a>
@@ -33,7 +34,15 @@
                                 <b>Confirmation :</b> @if($company->confirmation) Oui @else Non @endif <br>
                                 <b>Accompagnement :</b> @if($company->accompagnement) Oui @else Non @endif <br>
                                 <a href="{{route('company.read',['uid' => $company->uid])}}">Fiche</a> <br>
+
+                            </td>
+                            <td>
                                 Nombre d'offres : {{ count($company->jobs()) }}
+                                Offres jeunes : {{ count($company->jeunes) > 0 ? 'Oui' : 'Non' }}
+                                Type des offres jeunes : <br>
+                                @foreach(json_decode($company->jeunes_types) as $type)
+                                    {{$type}},
+                                @endforeach
                             </td>
                         </tr>
                         <tr></tr>
