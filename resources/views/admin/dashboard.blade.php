@@ -24,10 +24,8 @@
                             <td>
                                 {{$company->contact_mail}}
                                 <hr>
-                                <br>
                                 {{$company->address}} <br> {{$company->zip}} {{$company->town}}
                                 <hr>
-                                <br>
                                 {{$company->contact_first_name}} {{$company->contact_last_name}}<br>
                                 {{$company->contact_status}}<br>
                                 <a href="tel:{{$company->contact_phone}}">{{$company->contact_phone}}</a> | <a href="tel:{{$company->contact_mail}}">{{$company->contact_mail}}</a>
