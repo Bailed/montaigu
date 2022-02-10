@@ -228,18 +228,19 @@
                                     <section class="showcase" style="background-color:#FA007E;">
                                         <div class="container-fluid p-0">
                                             <div class="row no-gutters">
-                                                <div class="col-lg-6 showcase-img" style="background: url('img/jeunes_terresdemontaigu.png') no-repeat;background-size:contain;background-color:#e5e7e6">
+                                                <div class="col-lg-6 showcase-img" style="background: url('img/jeunes_terresdemontaigu.png') no-repeat;background-size:contain;background-position:left bottom;background-color:#e5e7e6">
                                                     <div style="padding-right:2em;padding-top:4em;" class="new_place text-right">
                                                         <h2 style="color:#32338A;">NOUVEAUTÉ</h2>
                                                         <p class="lead mb-0" style="color:#32338A;padding-left:1.5em;">
                                                             <br>
                                                             <b>« JEUNES TALENTS » : </b><br>
-                                                            <p style="color:#32338A;font-size:1.3em;font-weight:bold">Un temps dédié aux jeunes<br>
-                                                                en recherche de stage, <br>de contrat d’alternance,<br>
-                                                                d’apprentissage, <br>de travail saisonnier et étudiant.</p>
+                                                            <p style="color:#32338A;font-size:1.3em;font-weight:bold">
+                                                                <p style="color:#32338A;">Vous êtes à la recherche d’un stage,<br>
+                                                                    d’une alternance, d’un apprentissage,<br>
+                                                                    d’un job saisonnier ou étudiant,
                                                                 <br>
-                                                                <h3 style="color:#2C2D78;padding-left:1em;">Le 17 mars 2022 de 17h à 19h,</h3>
-                                                                <p style="color:#32338A;padding-left:1.7em;">affichez vos offres <br>et rencontrez les jeunes en recherche d’opportunités. </p>
+                                                                <h3 style="color:#2C2D78;padding-left:1em;">de 17h à 19h,</h3>
+                                                                <p style="color:#32338A;padding-left:1.7em;">un temps vous est dédié <br>pour rencontrer les entreprises<br> en recherche de Jeunes Talents. </p>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6 showcase-text">
