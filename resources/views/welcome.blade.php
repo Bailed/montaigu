@@ -118,14 +118,14 @@
                     @foreach(scandir(public_path('img/logos/specials/')) as $file)
                         @if($file != '.' && $file != '..')
                             <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                                <img style="margin-top:-1em;" src="/img/logos/specials/{{$file}}">
+                                <img src="/img/logos/specials/{{$file}}">
                             </div>
                         @endif
                     @endforeach
                     @foreach(\App\Model\Company::get() as $company)
                         @if($company->logo != null && $company->logo != '')
                             <div style="text-align:center;display:table-cell;vertical-align: middle;">
-                                <img style="margin-top:-1em;" src="/img/logos/{{$company->logo}}">
+                                <img src="/img/logos/{{$company->logo}}">
                             </div>
                         @endif
                     @endforeach
@@ -140,7 +140,7 @@
         <div class="row no-gutters">
             <div class="col-lg-6 text-white">
                 <div class="embed-responsive embed-responsive-16by9" style="width:100%;height:100%;">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m8Dtv_9oiFQ" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ftM3xERHys4" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-lg-6 showcase-text showcase-text-special">
@@ -218,6 +218,9 @@
                                                 </div>
                                                 @endforeach
                                             </section>
+                                            <div class="col-12 text-center">
+                                                <h5 style="font-weight:400;"><a href="{{route('jobs.index')}}" style="color:white;text-decoration:underline">Découvrir toutes les offres sur notre page dédiée</a></h5>
+                                            </div>
                                             @else
                                             <div class="col-12 text-center">
                                                 <h5 style="font-weight:400;">Les offres seront bientôt disponibles !</h5>
@@ -268,60 +271,50 @@
                                                             <div class="row">
                                                                 <h2 class="first_letter" style="margin-left:auto;margin-right:auto;color:white">Programme et organisation du salon</h2>
                                                             </div>
-                                                            <div class="row text-center">
-                                                                <div class="col">
-                                                                    <p class="mb-5" style="color:white">Avec Destination Emploi, trouvez les conseils et les informations utiles pour trouver votre nouvel emploi et réussir votre projet professionnel.</p>
-                                                                    <h4 style="color:white">PROGRAMME DE CONFERENCES EN COURS DE CONSTRUCTION</h4>
-                                                                </div>
-                                                            </div>
-                                                            <!--
                                                             <div class="row">
-                                                            <div class="col-lg-3 text-center">
-                                                            <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;">
-                                                            <p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">09:15</p>
-                                                        </div>
-                                                        <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Je valorise mes atouts pour être recruté autrement</b>
-                                                        <br>Mission Locale, Cap Emploi, Pôle Emploi
-                                                        Avec le témoignage de l’entreprise FM LOGISTIC (Logistique) et
-                                                        d’un salarié de STBM (Métallurgie)</p>
-                                                    </div>
-                                                    <div class="col-lg-3 text-center">
-                                                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">10:30</p></div>
-                                                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Découvrir, les métiers du Transport de voyageurs</b>
-                                                    <br>Fédération Nationale du Transport de Voyageurs Pays de la Loire</p>
-                                                </div>
-                                                <div class="col-lg-3 text-center">
-                                                <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">11:30</p></div>
-                                                <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Les métiers de la construction et de l’aménagement recrutent tout au long de la vie</b>
-                                                <br>Fédération Française du Bâtiment, GEIQ Construction et Aménagement, CFA Construction et Aménagement, AFPIA
-                                                Avec le témoignage de l’entreprise Spide Chauveau (Peinture)</p>
-                                            </div>
+                                                                <div class="col-lg-3 text-center">
+                                                                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;">
+                                                                        <p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">10:00</p>
+                                                                    </div>
+                                                                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Handicap et recherche d'emploi, en parler ou pas ? (45min)</b>
+                                                                    <br>Les bons conseils et les outils pour parler de son handicap tout au long de son parcours de recherche d’emploi.
+                                                                    Avec le témoignage du DRH de La Laiterie de Montaigu</p>
+                                                                </div>
+                                                                <div class="col-lg-3 text-center">
+                                                                <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">11:00</p></div>
+                                                                <p style="color:white;margin-top:1em;font-size:0.8em;">
+                                                                    <b>Connaissez-vous Terres de Montaigu ? (45min)</b>
+                                                                <br>Son organisation, sa démographie, son économie, on vous dit tout sur Terres de Montaigu.</p>
+
+
+                                                                </div>
+                                                                <div class="col-lg-3 text-center">
+                                                                <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">12:00</p></div>
+                                                                <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Se reconvertir, Se former, Faire le point sur mes compétences, comment faire ? (45min)</b>
+                                                                <br>Les opérateurs du CEP et Transition Pro vous expliquent tout sur
+                                                                - Le Conseil en Evolution professionnelle : un accompagnement pour construire mon projet d’évolution professionnelle
+                                                                - Le Projet de transition Professionnelle : le congé de formation pour me reconvertir</p>
+                                                                </div>
                                             <div class="col-lg-3 text-center">
-                                            <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">12:30</p></div>
-                                            <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Casser avec les idées reçues sur l’intérim</b>
-                                            <br>Les Agences d’emploi</p>
+                                            <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">14:00</p></div>
+                                            <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Quelles sont les multiples facettes des métiers des services à la personne ? Venez découvrir le témoignage de professionnels (30min)</b>
+                                            <br>Agent d’accompagnement en EHPAD, aide-soignante en EHPAD et aide à domicile ; ces professionnels viennent vous présenter leur parcours et leur quotidien</p>
                                         </div>
                                         <div class="col-lg-4 text-center">
-                                        <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">14:00</p></div>
-                                        <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Je me mets à la place du recruteur</b>
-                                        <br>Maison Départementale de l’Emploi et du Développement
-                                        Economique
-                                        Avec le témoignage des entreprises LCA Construction Bois
-                                        (Construction et Aménagement), Difagri (Alimentation
-                                        animale), la Laiterie de Montaigu (Alimentation)</p>
+                                        <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">14:45</p></div>
+                                        <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Terres de Montaigu, terres d’industrie, quelles opportunités d’emploi ? (45min)</b>
+                                        <br>Le secteur industriel est le 1er employeur de Terres de Montaigu, venez découvrir les entreprises qui font le bassin industriel du territoire et la diversité des métiers qui se cachent derrière ce secteur.</p>
                                     </div>
                                     <div class="col-lg-4 text-center">
-                                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">15:15</p></div>
-                                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Changer de regard sur un secteur innovant : la
-                                    métallurgie</b>
-                                    <br>Union Industrie Métallurgie Vendée
-                                    Avec le témoignage de l’entreprise NOVATICS (Robotique)</p>
+                                    <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">15:45</p></div>
+                                    <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Et si vous deveniez artisan de la rénovation énergétique ?</b>
+                                    <br>Travailler dans le bâtiment c’est aussi être acteur de la rénovation énergétique : tout savoir sur ces métiers, les formations et les offres d’emploi.
+                                    Avec le témoignage d’une entreprise de la Construction Ecologique (SARL David Guibert à Cugand).</p>
                                 </div>
                                 <div class="col-lg-4 text-center">
                                 <div class="work_thumb" style="background: url('img/icon-programme.svg') no-repeat;background-size:full;width:120px;height:120px;background-position:center center;margin-left:auto;margin-right:auto;"><p style="color:white;padding-left:15px;padding-top:40px;font-size:2em;">17:30</p></div>
-                                <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Un parcours réussi dans les métiers de l'alimentaire</b>
-                                <br>LIGERIAA
-                                Avec le témoignage de la Laiterie de Montaigu, de Sodebo</p>
+                                <p style="color:white;margin-top:1em;font-size:0.8em;"><b>Le BAFA, c'est quoi ?</b>
+                                <br>Viens trouver toutes les infos utiles pour passer ton BAFA, découvrir la formation et les aides dont tu peux bénéficier… Un jeune en cours de formation viendra témoigner de son parcours.</p>
                             </div>
                         </div>
                     -->

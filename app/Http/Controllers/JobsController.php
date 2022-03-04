@@ -16,6 +16,11 @@ use Auth;
 
 class JobsController extends Controller
 {
+    public function index()
+    {
+        return view('job.index')->with('jobs',Job::orderBy('company_uid','asc')->orderBy('name','asc')->get());
+    }
+
     public function add(Request $request) {
         Job::create([
             'uid' => Uuid::generate(),
