@@ -249,7 +249,7 @@
                                                         <div class="col-lg-6 showcase-text">
                                                             <div style="" class="new_place">
                                                                 <h2 class="first_letter" style="color:white;">Nouveau lieu, nouveau format, nouvelle destination pour l'emploi
-                                                                    <br><br>Entrée libre et gratuite <br> <span style="font-size:0.5em">Masque et Pass sanitaire exigés</span></h2>
+                                                                    <br><br>Entrée libre et gratuite</h2>
                                                                     <p class="lead mb-0" style="color:white;padding-left:1.5em;">
                                                                         <br>
                                                                         <b>Nouveautés 2022</b><br>
